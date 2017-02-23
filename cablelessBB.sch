@@ -1,0 +1,4709 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X06 P5
+U 1 1 58AE4433
+P 1650 3350
+F 0 "P5" H 1650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 1750 3350 50  0000 C CNN
+F 2 "lib:6p" H 1650 3350 50  0001 C CNN
+F 3 "" H 1650 3350 50  0000 C CNN
+	1    1650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 3200
+Connection ~ 1450 3300
+Connection ~ 1450 3400
+Connection ~ 1450 3500
+Connection ~ 1450 3100
+$Comp
+L Jumper_NO_Small JP6
+U 1 1 58AE5A00
+P 1550 2000
+F 0 "JP6" H 1550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 1940 50  0001 C CNN
+F 2 "lib:jump" H 1550 2000 50  0001 C CNN
+F 3 "" H 1550 2000 50  0000 C CNN
+	1    1550 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 58AE69AD
+P 1000 2500
+F 0 "#PWR01" H 1000 2350 50  0001 C CNN
+F 1 "VCC" H 1000 2650 50  0000 C CNN
+F 2 "" H 1000 2500 50  0000 C CNN
+F 3 "" H 1000 2500 50  0000 C CNN
+	1    1000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 58AE6A9D
+P 1000 2600
+F 0 "#PWR02" H 1000 2350 50  0001 C CNN
+F 1 "GND" H 1000 2450 50  0000 C CNN
+F 2 "" H 1000 2600 50  0000 C CNN
+F 3 "" H 1000 2600 50  0000 C CNN
+	1    1000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P7
+U 1 1 58AE73D5
+P 1700 2250
+F 0 "P7" H 1700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 1800 2250 50  0000 C CNN
+F 2 "lib:2P" H 1700 2250 50  0001 C CNN
+F 3 "" H 1700 2250 50  0000 C CNN
+	1    1700 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 750  1450 3600
+$Comp
+L CONN_01X06 P9
+U 1 1 58AE8A46
+P 2150 3350
+F 0 "P9" H 2150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 2250 3350 50  0000 C CNN
+F 2 "lib:6p" H 2150 3350 50  0001 C CNN
+F 3 "" H 2150 3350 50  0000 C CNN
+	1    2150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 3200
+Connection ~ 1950 3300
+Connection ~ 1950 3400
+Connection ~ 1950 3500
+Connection ~ 1950 3100
+$Comp
+L Jumper_NO_Small JP22
+U 1 1 58AE8A79
+P 2050 2000
+F 0 "JP22" H 2050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 1940 50  0001 C CNN
+F 2 "lib:jump" H 2050 2000 50  0001 C CNN
+F 3 "" H 2050 2000 50  0000 C CNN
+	1    2050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 750  1950 3600
+Wire Wire Line
+	2150 1900 2150 2000
+Wire Wire Line
+	1000 1900 8650 1900
+Connection ~ 2150 1900
+Wire Wire Line
+	1650 1900 1650 2000
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 58AEB556
+P 1550 1750
+F 0 "JP5" H 1550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 1690 50  0001 C CNN
+F 2 "lib:jump" H 1550 1750 50  0001 C CNN
+F 3 "" H 1550 1750 50  0000 C CNN
+	1    1550 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP21
+U 1 1 58AEB563
+P 2050 1750
+F 0 "JP21" H 2050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 1690 50  0001 C CNN
+F 2 "lib:jump" H 2050 1750 50  0001 C CNN
+F 3 "" H 2050 1750 50  0000 C CNN
+	1    2050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 1650 2150 1750
+Wire Wire Line
+	1400 1650 8650 1650
+Connection ~ 2150 1650
+Wire Wire Line
+	1650 1650 1650 1750
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 58AEBDA9
+P 1550 1500
+F 0 "JP4" H 1550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 1440 50  0001 C CNN
+F 2 "lib:jump" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0000 C CNN
+	1    1550 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP20
+U 1 1 58AEBDB6
+P 2050 1500
+F 0 "JP20" H 2050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 1440 50  0001 C CNN
+F 2 "lib:jump" H 2050 1500 50  0001 C CNN
+F 3 "" H 2050 1500 50  0000 C CNN
+	1    2050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 1400 2150 1500
+Connection ~ 2150 1400
+Wire Wire Line
+	1650 1400 1650 1500
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 58AEBDC7
+P 1550 1250
+F 0 "JP3" H 1550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 1190 50  0001 C CNN
+F 2 "lib:jump" H 1550 1250 50  0001 C CNN
+F 3 "" H 1550 1250 50  0000 C CNN
+	1    1550 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP19
+U 1 1 58AEBDD4
+P 2050 1250
+F 0 "JP19" H 2050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 1190 50  0001 C CNN
+F 2 "lib:jump" H 2050 1250 50  0001 C CNN
+F 3 "" H 2050 1250 50  0000 C CNN
+	1    2050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 1150 2150 1250
+Wire Wire Line
+	1300 1150 8650 1150
+Connection ~ 2150 1150
+Wire Wire Line
+	1650 1150 1650 1250
+Connection ~ 1450 1500
+Connection ~ 1450 1750
+Connection ~ 1450 2000
+Connection ~ 1950 2000
+Connection ~ 1950 1750
+Connection ~ 1950 1500
+Connection ~ 1450 1250
+Wire Wire Line
+	1350 1400 8650 1400
+$Comp
+L CONN_01X06 P1
+U 1 1 58AF1F66
+P 800 1650
+F 0 "P1" H 800 2000 50  0000 C CNN
+F 1 "CONN_01X06" V 900 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 800 1650 50  0001 C CNN
+F 3 "" H 800 1650 50  0000 C CNN
+	1    800  1650
+	-1   0    0    1   
+$EndComp
+Connection ~ 1650 1900
+Wire Wire Line
+	1000 1800 1400 1800
+Wire Wire Line
+	1400 1800 1400 1650
+Connection ~ 1650 1650
+Wire Wire Line
+	1000 1700 1350 1700
+Wire Wire Line
+	1350 1700 1350 1400
+Connection ~ 1650 1400
+Wire Wire Line
+	1000 1600 1300 1600
+Wire Wire Line
+	1300 1600 1300 1150
+Connection ~ 1650 1150
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 58AF34A2
+P 1550 1000
+F 0 "JP2" H 1550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 940 50  0001 C CNN
+F 2 "lib:jump" H 1550 1000 50  0001 C CNN
+F 3 "" H 1550 1000 50  0000 C CNN
+	1    1550 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP18
+U 1 1 58AF34A8
+P 2050 1000
+F 0 "JP18" H 2050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 940 50  0001 C CNN
+F 2 "lib:jump" H 2050 1000 50  0001 C CNN
+F 3 "" H 2050 1000 50  0000 C CNN
+	1    2050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 900  2150 1000
+Connection ~ 2150 900 
+Wire Wire Line
+	1650 900  1650 1000
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 58AF34B1
+P 1550 750
+F 0 "JP1" H 1550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 690 50  0001 C CNN
+F 2 "lib:jump" H 1550 750 50  0001 C CNN
+F 3 "" H 1550 750 50  0000 C CNN
+	1    1550 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP17
+U 1 1 58AF34B7
+P 2050 750
+F 0 "JP17" H 2050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 690 50  0001 C CNN
+F 2 "lib:jump" H 2050 750 50  0001 C CNN
+F 3 "" H 2050 750 50  0000 C CNN
+	1    2050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 650  2150 750 
+Wire Wire Line
+	1200 650  8650 650 
+Connection ~ 2150 650 
+Wire Wire Line
+	1650 650  1650 750 
+Connection ~ 1950 1000
+Wire Wire Line
+	1250 900  8650 900 
+Connection ~ 1650 900 
+Connection ~ 1650 650 
+Wire Wire Line
+	1000 1500 1250 1500
+Wire Wire Line
+	1250 1500 1250 900 
+Wire Wire Line
+	1200 650  1200 1400
+Wire Wire Line
+	1200 1400 1000 1400
+$Comp
+L CONN_01X02 P2
+U 1 1 58AF50F8
+P 800 2550
+F 0 "P2" H 800 2700 50  0000 C CNN
+F 1 "CONN_01X02" V 900 2550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 800 2550 50  0001 C CNN
+F 3 "" H 800 2550 50  0000 C CNN
+	1    800  2550
+	-1   0    0    1   
+$EndComp
+Connection ~ 1000 2500
+Connection ~ 1000 2600
+$Comp
+L Jumper_NO_Small JP7
+U 1 1 58AFDD83
+P 1550 2700
+F 0 "JP7" H 1550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 2640 50  0001 C CNN
+F 2 "lib:jump" H 1550 2700 50  0001 C CNN
+F 3 "" H 1550 2700 50  0000 C CNN
+	1    1550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP8
+U 1 1 58AFDDE9
+P 1550 2850
+F 0 "JP8" H 1550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 2790 50  0001 C CNN
+F 2 "lib:jump" H 1550 2850 50  0001 C CNN
+F 3 "" H 1550 2850 50  0000 C CNN
+	1    1550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 2450 1650 2700
+Wire Wire Line
+	1750 2850 1650 2850
+Wire Wire Line
+	1750 2450 1750 2850
+Connection ~ 1650 2500
+Connection ~ 1750 2600
+Connection ~ 1450 2700
+Connection ~ 1450 2850
+$Comp
+L CONN_01X02 P11
+U 1 1 58AFFDDC
+P 2200 2250
+F 0 "P11" H 2200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 2300 2250 50  0000 C CNN
+F 2 "lib:2P" H 2200 2250 50  0001 C CNN
+F 3 "" H 2200 2250 50  0000 C CNN
+	1    2200 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 2600 8750 2600
+Wire Wire Line
+	1000 2500 8650 2500
+$Comp
+L Jumper_NO_Small JP23
+U 1 1 58AFFDE9
+P 2050 2700
+F 0 "JP23" H 2050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 2640 50  0001 C CNN
+F 2 "lib:jump" H 2050 2700 50  0001 C CNN
+F 3 "" H 2050 2700 50  0000 C CNN
+	1    2050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP24
+U 1 1 58AFFDEF
+P 2050 2850
+F 0 "JP24" H 2050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 2790 50  0001 C CNN
+F 2 "lib:jump" H 2050 2850 50  0001 C CNN
+F 3 "" H 2050 2850 50  0000 C CNN
+	1    2050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 2450 2150 2700
+Wire Wire Line
+	2250 2850 2150 2850
+Wire Wire Line
+	2250 2450 2250 2850
+Connection ~ 2150 2500
+Connection ~ 2250 2600
+Connection ~ 1950 2700
+Connection ~ 1950 2850
+$Comp
+L CONN_01X06 P13
+U 1 1 58B0225F
+P 2650 3350
+F 0 "P13" H 2650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 2750 3350 50  0000 C CNN
+F 2 "lib:6p" H 2650 3350 50  0001 C CNN
+F 3 "" H 2650 3350 50  0000 C CNN
+	1    2650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 3200
+Connection ~ 2450 3300
+Connection ~ 2450 3400
+Connection ~ 2450 3500
+Connection ~ 2450 3100
+$Comp
+L Jumper_NO_Small JP38
+U 1 1 58B0226A
+P 2550 2000
+F 0 "JP38" H 2550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 1940 50  0001 C CNN
+F 2 "lib:jump" H 2550 2000 50  0001 C CNN
+F 3 "" H 2550 2000 50  0000 C CNN
+	1    2550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 750  2450 3600
+Wire Wire Line
+	2650 1900 2650 2000
+Connection ~ 2650 1900
+$Comp
+L Jumper_NO_Small JP37
+U 1 1 58B0227B
+P 2550 1750
+F 0 "JP37" H 2550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 1690 50  0001 C CNN
+F 2 "lib:jump" H 2550 1750 50  0001 C CNN
+F 3 "" H 2550 1750 50  0000 C CNN
+	1    2550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 1650 2650 1750
+Connection ~ 2650 1650
+$Comp
+L Jumper_NO_Small JP36
+U 1 1 58B02283
+P 2550 1500
+F 0 "JP36" H 2550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 1440 50  0001 C CNN
+F 2 "lib:jump" H 2550 1500 50  0001 C CNN
+F 3 "" H 2550 1500 50  0000 C CNN
+	1    2550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 1400 2650 1500
+Connection ~ 2650 1400
+$Comp
+L Jumper_NO_Small JP35
+U 1 1 58B0228B
+P 2550 1250
+F 0 "JP35" H 2550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 1190 50  0001 C CNN
+F 2 "lib:jump" H 2550 1250 50  0001 C CNN
+F 3 "" H 2550 1250 50  0000 C CNN
+	1    2550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 1150 2650 1250
+Connection ~ 2650 1150
+Connection ~ 2450 2000
+Connection ~ 2450 1750
+Connection ~ 2450 1500
+$Comp
+L Jumper_NO_Small JP34
+U 1 1 58B02296
+P 2550 1000
+F 0 "JP34" H 2550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 940 50  0001 C CNN
+F 2 "lib:jump" H 2550 1000 50  0001 C CNN
+F 3 "" H 2550 1000 50  0000 C CNN
+	1    2550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 900  2650 1000
+Connection ~ 2650 900 
+$Comp
+L Jumper_NO_Small JP33
+U 1 1 58B0229E
+P 2550 750
+F 0 "JP33" H 2550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 690 50  0001 C CNN
+F 2 "lib:jump" H 2550 750 50  0001 C CNN
+F 3 "" H 2550 750 50  0000 C CNN
+	1    2550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 650  2650 750 
+Connection ~ 2650 650 
+Connection ~ 2450 1000
+$Comp
+L CONN_01X02 P15
+U 1 1 58B022A7
+P 2700 2250
+F 0 "P15" H 2700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 2250 50  0000 C CNN
+F 2 "lib:2P" H 2700 2250 50  0001 C CNN
+F 3 "" H 2700 2250 50  0000 C CNN
+	1    2700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP39
+U 1 1 58B022B0
+P 2550 2700
+F 0 "JP39" H 2550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 2640 50  0001 C CNN
+F 2 "lib:jump" H 2550 2700 50  0001 C CNN
+F 3 "" H 2550 2700 50  0000 C CNN
+	1    2550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP40
+U 1 1 58B022B6
+P 2550 2850
+F 0 "JP40" H 2550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 2790 50  0001 C CNN
+F 2 "lib:jump" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0000 C CNN
+	1    2550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 2450 2650 2700
+Wire Wire Line
+	2750 2850 2650 2850
+Wire Wire Line
+	2750 2450 2750 2850
+Connection ~ 2650 2500
+Connection ~ 2750 2600
+Connection ~ 2450 2700
+Connection ~ 2450 2850
+$Comp
+L CONN_01X06 P17
+U 1 1 58B02DFF
+P 3150 3350
+F 0 "P17" H 3150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 3250 3350 50  0000 C CNN
+F 2 "lib:6p" H 3150 3350 50  0001 C CNN
+F 3 "" H 3150 3350 50  0000 C CNN
+	1    3150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 3200
+Connection ~ 2950 3300
+Connection ~ 2950 3400
+Connection ~ 2950 3500
+Connection ~ 2950 3100
+$Comp
+L Jumper_NO_Small JP54
+U 1 1 58B02E0A
+P 3050 2000
+F 0 "JP54" H 3050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 1940 50  0001 C CNN
+F 2 "lib:jump" H 3050 2000 50  0001 C CNN
+F 3 "" H 3050 2000 50  0000 C CNN
+	1    3050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2950 750  2950 3600
+Wire Wire Line
+	3150 1900 3150 2000
+Connection ~ 3150 1900
+$Comp
+L Jumper_NO_Small JP53
+U 1 1 58B02E1B
+P 3050 1750
+F 0 "JP53" H 3050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 1690 50  0001 C CNN
+F 2 "lib:jump" H 3050 1750 50  0001 C CNN
+F 3 "" H 3050 1750 50  0000 C CNN
+	1    3050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 1650 3150 1750
+Connection ~ 3150 1650
+$Comp
+L Jumper_NO_Small JP52
+U 1 1 58B02E23
+P 3050 1500
+F 0 "JP52" H 3050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 1440 50  0001 C CNN
+F 2 "lib:jump" H 3050 1500 50  0001 C CNN
+F 3 "" H 3050 1500 50  0000 C CNN
+	1    3050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 1400 3150 1500
+Connection ~ 3150 1400
+$Comp
+L Jumper_NO_Small JP51
+U 1 1 58B02E2B
+P 3050 1250
+F 0 "JP51" H 3050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 1190 50  0001 C CNN
+F 2 "lib:jump" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0000 C CNN
+	1    3050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 1150 3150 1250
+Connection ~ 3150 1150
+Connection ~ 2950 2000
+Connection ~ 2950 1750
+Connection ~ 2950 1500
+$Comp
+L Jumper_NO_Small JP50
+U 1 1 58B02E36
+P 3050 1000
+F 0 "JP50" H 3050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 940 50  0001 C CNN
+F 2 "lib:jump" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0000 C CNN
+	1    3050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 900  3150 1000
+Connection ~ 3150 900 
+$Comp
+L Jumper_NO_Small JP49
+U 1 1 58B02E3E
+P 3050 750
+F 0 "JP49" H 3050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 690 50  0001 C CNN
+F 2 "lib:jump" H 3050 750 50  0001 C CNN
+F 3 "" H 3050 750 50  0000 C CNN
+	1    3050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 650  3150 750 
+Connection ~ 3150 650 
+Connection ~ 2950 1000
+$Comp
+L CONN_01X02 P19
+U 1 1 58B02E47
+P 3200 2250
+F 0 "P19" H 3200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 3300 2250 50  0000 C CNN
+F 2 "lib:2P" H 3200 2250 50  0001 C CNN
+F 3 "" H 3200 2250 50  0000 C CNN
+	1    3200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP55
+U 1 1 58B02E50
+P 3050 2700
+F 0 "JP55" H 3050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 2640 50  0001 C CNN
+F 2 "lib:jump" H 3050 2700 50  0001 C CNN
+F 3 "" H 3050 2700 50  0000 C CNN
+	1    3050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP56
+U 1 1 58B02E56
+P 3050 2850
+F 0 "JP56" H 3050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 2790 50  0001 C CNN
+F 2 "lib:jump" H 3050 2850 50  0001 C CNN
+F 3 "" H 3050 2850 50  0000 C CNN
+	1    3050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 2450 3150 2700
+Wire Wire Line
+	3250 2850 3150 2850
+Wire Wire Line
+	3250 2450 3250 2850
+Connection ~ 3150 2500
+Connection ~ 3250 2600
+Connection ~ 2950 2700
+Connection ~ 2950 2850
+$Comp
+L CONN_01X06 P21
+U 1 1 58B02E65
+P 3650 3350
+F 0 "P21" H 3650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 3750 3350 50  0000 C CNN
+F 2 "lib:6p" H 3650 3350 50  0001 C CNN
+F 3 "" H 3650 3350 50  0000 C CNN
+	1    3650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3200
+Connection ~ 3450 3300
+Connection ~ 3450 3400
+Connection ~ 3450 3500
+Connection ~ 3450 3100
+$Comp
+L Jumper_NO_Small JP70
+U 1 1 58B02E70
+P 3550 2000
+F 0 "JP70" H 3550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 1940 50  0001 C CNN
+F 2 "lib:jump" H 3550 2000 50  0001 C CNN
+F 3 "" H 3550 2000 50  0000 C CNN
+	1    3550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 750  3450 3600
+Wire Wire Line
+	3650 1900 3650 2000
+Connection ~ 3650 1900
+$Comp
+L Jumper_NO_Small JP69
+U 1 1 58B02E81
+P 3550 1750
+F 0 "JP69" H 3550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 1690 50  0001 C CNN
+F 2 "lib:jump" H 3550 1750 50  0001 C CNN
+F 3 "" H 3550 1750 50  0000 C CNN
+	1    3550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 1650 3650 1750
+Connection ~ 3650 1650
+$Comp
+L Jumper_NO_Small JP68
+U 1 1 58B02E89
+P 3550 1500
+F 0 "JP68" H 3550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 1440 50  0001 C CNN
+F 2 "lib:jump" H 3550 1500 50  0001 C CNN
+F 3 "" H 3550 1500 50  0000 C CNN
+	1    3550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 1400 3650 1500
+Connection ~ 3650 1400
+$Comp
+L Jumper_NO_Small JP67
+U 1 1 58B02E91
+P 3550 1250
+F 0 "JP67" H 3550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 1190 50  0001 C CNN
+F 2 "lib:jump" H 3550 1250 50  0001 C CNN
+F 3 "" H 3550 1250 50  0000 C CNN
+	1    3550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 1150 3650 1250
+Connection ~ 3650 1150
+Connection ~ 3450 2000
+Connection ~ 3450 1750
+Connection ~ 3450 1500
+$Comp
+L Jumper_NO_Small JP66
+U 1 1 58B02E9C
+P 3550 1000
+F 0 "JP66" H 3550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 940 50  0001 C CNN
+F 2 "lib:jump" H 3550 1000 50  0001 C CNN
+F 3 "" H 3550 1000 50  0000 C CNN
+	1    3550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 900  3650 1000
+Connection ~ 3650 900 
+$Comp
+L Jumper_NO_Small JP65
+U 1 1 58B02EA4
+P 3550 750
+F 0 "JP65" H 3550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 690 50  0001 C CNN
+F 2 "lib:jump" H 3550 750 50  0001 C CNN
+F 3 "" H 3550 750 50  0000 C CNN
+	1    3550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 650  3650 750 
+Connection ~ 3650 650 
+Connection ~ 3450 1000
+$Comp
+L CONN_01X02 P23
+U 1 1 58B02EAD
+P 3700 2250
+F 0 "P23" H 3700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 3800 2250 50  0000 C CNN
+F 2 "lib:2P" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0000 C CNN
+	1    3700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP71
+U 1 1 58B02EB6
+P 3550 2700
+F 0 "JP71" H 3550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 2640 50  0001 C CNN
+F 2 "lib:jump" H 3550 2700 50  0001 C CNN
+F 3 "" H 3550 2700 50  0000 C CNN
+	1    3550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP72
+U 1 1 58B02EBC
+P 3550 2850
+F 0 "JP72" H 3550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 2790 50  0001 C CNN
+F 2 "lib:jump" H 3550 2850 50  0001 C CNN
+F 3 "" H 3550 2850 50  0000 C CNN
+	1    3550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 2450 3650 2700
+Wire Wire Line
+	3750 2850 3650 2850
+Wire Wire Line
+	3750 2450 3750 2850
+Connection ~ 3650 2500
+Connection ~ 3750 2600
+Connection ~ 3450 2700
+Connection ~ 3450 2850
+$Comp
+L CONN_01X06 P25
+U 1 1 58B036E7
+P 4150 3350
+F 0 "P25" H 4150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 4250 3350 50  0000 C CNN
+F 2 "lib:6p" H 4150 3350 50  0001 C CNN
+F 3 "" H 4150 3350 50  0000 C CNN
+	1    4150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 3200
+Connection ~ 3950 3300
+Connection ~ 3950 3400
+Connection ~ 3950 3500
+Connection ~ 3950 3100
+$Comp
+L Jumper_NO_Small JP86
+U 1 1 58B036F2
+P 4050 2000
+F 0 "JP86" H 4050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 1940 50  0001 C CNN
+F 2 "lib:jump" H 4050 2000 50  0001 C CNN
+F 3 "" H 4050 2000 50  0000 C CNN
+	1    4050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 750  3950 3600
+Wire Wire Line
+	4150 1900 4150 2000
+Connection ~ 4150 1900
+$Comp
+L Jumper_NO_Small JP85
+U 1 1 58B03703
+P 4050 1750
+F 0 "JP85" H 4050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 1690 50  0001 C CNN
+F 2 "lib:jump" H 4050 1750 50  0001 C CNN
+F 3 "" H 4050 1750 50  0000 C CNN
+	1    4050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1650 4150 1750
+Connection ~ 4150 1650
+$Comp
+L Jumper_NO_Small JP84
+U 1 1 58B0370B
+P 4050 1500
+F 0 "JP84" H 4050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 1440 50  0001 C CNN
+F 2 "lib:jump" H 4050 1500 50  0001 C CNN
+F 3 "" H 4050 1500 50  0000 C CNN
+	1    4050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1400 4150 1500
+Connection ~ 4150 1400
+$Comp
+L Jumper_NO_Small JP83
+U 1 1 58B03713
+P 4050 1250
+F 0 "JP83" H 4050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 1190 50  0001 C CNN
+F 2 "lib:jump" H 4050 1250 50  0001 C CNN
+F 3 "" H 4050 1250 50  0000 C CNN
+	1    4050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 1150 4150 1250
+Connection ~ 4150 1150
+Connection ~ 3950 2000
+Connection ~ 3950 1750
+Connection ~ 3950 1500
+$Comp
+L Jumper_NO_Small JP82
+U 1 1 58B0371E
+P 4050 1000
+F 0 "JP82" H 4050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 940 50  0001 C CNN
+F 2 "lib:jump" H 4050 1000 50  0001 C CNN
+F 3 "" H 4050 1000 50  0000 C CNN
+	1    4050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 900  4150 1000
+Connection ~ 4150 900 
+$Comp
+L Jumper_NO_Small JP81
+U 1 1 58B03726
+P 4050 750
+F 0 "JP81" H 4050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 690 50  0001 C CNN
+F 2 "lib:jump" H 4050 750 50  0001 C CNN
+F 3 "" H 4050 750 50  0000 C CNN
+	1    4050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 650  4150 750 
+Connection ~ 4150 650 
+Connection ~ 3950 1000
+$Comp
+L CONN_01X02 P27
+U 1 1 58B0372F
+P 4200 2250
+F 0 "P27" H 4200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 4300 2250 50  0000 C CNN
+F 2 "lib:2P" H 4200 2250 50  0001 C CNN
+F 3 "" H 4200 2250 50  0000 C CNN
+	1    4200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP87
+U 1 1 58B03738
+P 4050 2700
+F 0 "JP87" H 4050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 2640 50  0001 C CNN
+F 2 "lib:jump" H 4050 2700 50  0001 C CNN
+F 3 "" H 4050 2700 50  0000 C CNN
+	1    4050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP88
+U 1 1 58B0373E
+P 4050 2850
+F 0 "JP88" H 4050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 2790 50  0001 C CNN
+F 2 "lib:jump" H 4050 2850 50  0001 C CNN
+F 3 "" H 4050 2850 50  0000 C CNN
+	1    4050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2450 4150 2700
+Wire Wire Line
+	4250 2850 4150 2850
+Wire Wire Line
+	4250 2450 4250 2850
+Connection ~ 4150 2500
+Connection ~ 4250 2600
+Connection ~ 3950 2700
+Connection ~ 3950 2850
+$Comp
+L CONN_01X06 P29
+U 1 1 58B0374D
+P 4650 3350
+F 0 "P29" H 4650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 4750 3350 50  0000 C CNN
+F 2 "lib:6p" H 4650 3350 50  0001 C CNN
+F 3 "" H 4650 3350 50  0000 C CNN
+	1    4650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3200
+Connection ~ 4450 3300
+Connection ~ 4450 3400
+Connection ~ 4450 3500
+Connection ~ 4450 3100
+$Comp
+L Jumper_NO_Small JP102
+U 1 1 58B03758
+P 4550 2000
+F 0 "JP102" H 4550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 1940 50  0001 C CNN
+F 2 "lib:jump" H 4550 2000 50  0001 C CNN
+F 3 "" H 4550 2000 50  0000 C CNN
+	1    4550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 750  4450 3600
+Wire Wire Line
+	4650 1900 4650 2000
+Connection ~ 4650 1900
+$Comp
+L Jumper_NO_Small JP101
+U 1 1 58B03769
+P 4550 1750
+F 0 "JP101" H 4550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 1690 50  0001 C CNN
+F 2 "lib:jump" H 4550 1750 50  0001 C CNN
+F 3 "" H 4550 1750 50  0000 C CNN
+	1    4550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1650 4650 1750
+Connection ~ 4650 1650
+$Comp
+L Jumper_NO_Small JP100
+U 1 1 58B03771
+P 4550 1500
+F 0 "JP100" H 4550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 1440 50  0001 C CNN
+F 2 "lib:jump" H 4550 1500 50  0001 C CNN
+F 3 "" H 4550 1500 50  0000 C CNN
+	1    4550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1400 4650 1500
+Connection ~ 4650 1400
+$Comp
+L Jumper_NO_Small JP99
+U 1 1 58B03779
+P 4550 1250
+F 0 "JP99" H 4550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 1190 50  0001 C CNN
+F 2 "lib:jump" H 4550 1250 50  0001 C CNN
+F 3 "" H 4550 1250 50  0000 C CNN
+	1    4550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1150 4650 1250
+Connection ~ 4650 1150
+Connection ~ 4450 2000
+Connection ~ 4450 1750
+Connection ~ 4450 1500
+$Comp
+L Jumper_NO_Small JP98
+U 1 1 58B03784
+P 4550 1000
+F 0 "JP98" H 4550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 940 50  0001 C CNN
+F 2 "lib:jump" H 4550 1000 50  0001 C CNN
+F 3 "" H 4550 1000 50  0000 C CNN
+	1    4550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 900  4650 1000
+Connection ~ 4650 900 
+$Comp
+L Jumper_NO_Small JP97
+U 1 1 58B0378C
+P 4550 750
+F 0 "JP97" H 4550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 690 50  0001 C CNN
+F 2 "lib:jump" H 4550 750 50  0001 C CNN
+F 3 "" H 4550 750 50  0000 C CNN
+	1    4550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 650  4650 750 
+Connection ~ 4650 650 
+Connection ~ 4450 1000
+$Comp
+L CONN_01X02 P31
+U 1 1 58B03795
+P 4700 2250
+F 0 "P31" H 4700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 4800 2250 50  0000 C CNN
+F 2 "lib:2P" H 4700 2250 50  0001 C CNN
+F 3 "" H 4700 2250 50  0000 C CNN
+	1    4700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP103
+U 1 1 58B0379E
+P 4550 2700
+F 0 "JP103" H 4550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 2640 50  0001 C CNN
+F 2 "lib:jump" H 4550 2700 50  0001 C CNN
+F 3 "" H 4550 2700 50  0000 C CNN
+	1    4550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP104
+U 1 1 58B037A4
+P 4550 2850
+F 0 "JP104" H 4550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 2790 50  0001 C CNN
+F 2 "lib:jump" H 4550 2850 50  0001 C CNN
+F 3 "" H 4550 2850 50  0000 C CNN
+	1    4550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2450 4650 2700
+Wire Wire Line
+	4750 2850 4650 2850
+Wire Wire Line
+	4750 2450 4750 2850
+Connection ~ 4650 2500
+Connection ~ 4750 2600
+Connection ~ 4450 2700
+Connection ~ 4450 2850
+$Comp
+L CONN_01X06 P33
+U 1 1 58B037B3
+P 5150 3350
+F 0 "P33" H 5150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 5250 3350 50  0000 C CNN
+F 2 "lib:6p" H 5150 3350 50  0001 C CNN
+F 3 "" H 5150 3350 50  0000 C CNN
+	1    5150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 3200
+Connection ~ 4950 3300
+Connection ~ 4950 3400
+Connection ~ 4950 3500
+Connection ~ 4950 3100
+$Comp
+L Jumper_NO_Small JP118
+U 1 1 58B037BE
+P 5050 2000
+F 0 "JP118" H 5050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 1940 50  0001 C CNN
+F 2 "lib:jump" H 5050 2000 50  0001 C CNN
+F 3 "" H 5050 2000 50  0000 C CNN
+	1    5050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4950 750  4950 3600
+Wire Wire Line
+	5150 1900 5150 2000
+Connection ~ 5150 1900
+$Comp
+L Jumper_NO_Small JP117
+U 1 1 58B037CF
+P 5050 1750
+F 0 "JP117" H 5050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 1690 50  0001 C CNN
+F 2 "lib:jump" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0000 C CNN
+	1    5050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1650 5150 1750
+Connection ~ 5150 1650
+$Comp
+L Jumper_NO_Small JP116
+U 1 1 58B037D7
+P 5050 1500
+F 0 "JP116" H 5050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 1440 50  0001 C CNN
+F 2 "lib:jump" H 5050 1500 50  0001 C CNN
+F 3 "" H 5050 1500 50  0000 C CNN
+	1    5050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1400 5150 1500
+Connection ~ 5150 1400
+$Comp
+L Jumper_NO_Small JP115
+U 1 1 58B037DF
+P 5050 1250
+F 0 "JP115" H 5050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 1190 50  0001 C CNN
+F 2 "lib:jump" H 5050 1250 50  0001 C CNN
+F 3 "" H 5050 1250 50  0000 C CNN
+	1    5050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 1150 5150 1250
+Connection ~ 5150 1150
+Connection ~ 4950 2000
+Connection ~ 4950 1750
+Connection ~ 4950 1500
+$Comp
+L Jumper_NO_Small JP114
+U 1 1 58B037EA
+P 5050 1000
+F 0 "JP114" H 5050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 940 50  0001 C CNN
+F 2 "lib:jump" H 5050 1000 50  0001 C CNN
+F 3 "" H 5050 1000 50  0000 C CNN
+	1    5050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 900  5150 1000
+Connection ~ 5150 900 
+$Comp
+L Jumper_NO_Small JP113
+U 1 1 58B037F2
+P 5050 750
+F 0 "JP113" H 5050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 690 50  0001 C CNN
+F 2 "lib:jump" H 5050 750 50  0001 C CNN
+F 3 "" H 5050 750 50  0000 C CNN
+	1    5050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 650  5150 750 
+Connection ~ 5150 650 
+Connection ~ 4950 1000
+$Comp
+L CONN_01X02 P35
+U 1 1 58B037FB
+P 5200 2250
+F 0 "P35" H 5200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 5300 2250 50  0000 C CNN
+F 2 "lib:2P" H 5200 2250 50  0001 C CNN
+F 3 "" H 5200 2250 50  0000 C CNN
+	1    5200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP119
+U 1 1 58B03804
+P 5050 2700
+F 0 "JP119" H 5050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 2640 50  0001 C CNN
+F 2 "lib:jump" H 5050 2700 50  0001 C CNN
+F 3 "" H 5050 2700 50  0000 C CNN
+	1    5050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP120
+U 1 1 58B0380A
+P 5050 2850
+F 0 "JP120" H 5050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 2790 50  0001 C CNN
+F 2 "lib:jump" H 5050 2850 50  0001 C CNN
+F 3 "" H 5050 2850 50  0000 C CNN
+	1    5050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2450 5150 2700
+Wire Wire Line
+	5250 2850 5150 2850
+Wire Wire Line
+	5250 2450 5250 2850
+Connection ~ 5150 2500
+Connection ~ 5250 2600
+Connection ~ 4950 2700
+Connection ~ 4950 2850
+$Comp
+L CONN_01X06 P37
+U 1 1 58B03819
+P 5650 3350
+F 0 "P37" H 5650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 5750 3350 50  0000 C CNN
+F 2 "lib:6p" H 5650 3350 50  0001 C CNN
+F 3 "" H 5650 3350 50  0000 C CNN
+	1    5650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3200
+Connection ~ 5450 3300
+Connection ~ 5450 3400
+Connection ~ 5450 3500
+Connection ~ 5450 3100
+$Comp
+L Jumper_NO_Small JP134
+U 1 1 58B03824
+P 5550 2000
+F 0 "JP134" H 5550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 1940 50  0001 C CNN
+F 2 "lib:jump" H 5550 2000 50  0001 C CNN
+F 3 "" H 5550 2000 50  0000 C CNN
+	1    5550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 750  5450 3600
+Wire Wire Line
+	5650 1900 5650 2000
+Connection ~ 5650 1900
+$Comp
+L Jumper_NO_Small JP133
+U 1 1 58B03835
+P 5550 1750
+F 0 "JP133" H 5550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 1690 50  0001 C CNN
+F 2 "lib:jump" H 5550 1750 50  0001 C CNN
+F 3 "" H 5550 1750 50  0000 C CNN
+	1    5550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 1650 5650 1750
+Connection ~ 5650 1650
+$Comp
+L Jumper_NO_Small JP132
+U 1 1 58B0383D
+P 5550 1500
+F 0 "JP132" H 5550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 1440 50  0001 C CNN
+F 2 "lib:jump" H 5550 1500 50  0001 C CNN
+F 3 "" H 5550 1500 50  0000 C CNN
+	1    5550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 1400 5650 1500
+Connection ~ 5650 1400
+$Comp
+L Jumper_NO_Small JP131
+U 1 1 58B03845
+P 5550 1250
+F 0 "JP131" H 5550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 1190 50  0001 C CNN
+F 2 "lib:jump" H 5550 1250 50  0001 C CNN
+F 3 "" H 5550 1250 50  0000 C CNN
+	1    5550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 1150 5650 1250
+Connection ~ 5650 1150
+Connection ~ 5450 2000
+Connection ~ 5450 1750
+Connection ~ 5450 1500
+$Comp
+L Jumper_NO_Small JP130
+U 1 1 58B03850
+P 5550 1000
+F 0 "JP130" H 5550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 940 50  0001 C CNN
+F 2 "lib:jump" H 5550 1000 50  0001 C CNN
+F 3 "" H 5550 1000 50  0000 C CNN
+	1    5550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 900  5650 1000
+Connection ~ 5650 900 
+$Comp
+L Jumper_NO_Small JP129
+U 1 1 58B03858
+P 5550 750
+F 0 "JP129" H 5550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 690 50  0001 C CNN
+F 2 "lib:jump" H 5550 750 50  0001 C CNN
+F 3 "" H 5550 750 50  0000 C CNN
+	1    5550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 650  5650 750 
+Connection ~ 5650 650 
+Connection ~ 5450 1000
+$Comp
+L CONN_01X02 P39
+U 1 1 58B03861
+P 5700 2250
+F 0 "P39" H 5700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 5800 2250 50  0000 C CNN
+F 2 "lib:2P" H 5700 2250 50  0001 C CNN
+F 3 "" H 5700 2250 50  0000 C CNN
+	1    5700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP135
+U 1 1 58B0386A
+P 5550 2700
+F 0 "JP135" H 5550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 2640 50  0001 C CNN
+F 2 "lib:jump" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0000 C CNN
+	1    5550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP136
+U 1 1 58B03870
+P 5550 2850
+F 0 "JP136" H 5550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 2790 50  0001 C CNN
+F 2 "lib:jump" H 5550 2850 50  0001 C CNN
+F 3 "" H 5550 2850 50  0000 C CNN
+	1    5550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 2450 5650 2700
+Wire Wire Line
+	5750 2850 5650 2850
+Wire Wire Line
+	5750 2450 5750 2850
+Connection ~ 5650 2500
+Connection ~ 5750 2600
+Connection ~ 5450 2700
+Connection ~ 5450 2850
+$Comp
+L CONN_01X06 P41
+U 1 1 58B06D88
+P 6150 3350
+F 0 "P41" H 6150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 6250 3350 50  0000 C CNN
+F 2 "lib:6p" H 6150 3350 50  0001 C CNN
+F 3 "" H 6150 3350 50  0000 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 3200
+Connection ~ 5950 3300
+Connection ~ 5950 3400
+Connection ~ 5950 3500
+Connection ~ 5950 3100
+$Comp
+L Jumper_NO_Small JP150
+U 1 1 58B06D93
+P 6050 2000
+F 0 "JP150" H 6050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 1940 50  0001 C CNN
+F 2 "lib:jump" H 6050 2000 50  0001 C CNN
+F 3 "" H 6050 2000 50  0000 C CNN
+	1    6050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 750  5950 3600
+Wire Wire Line
+	6150 1900 6150 2000
+Connection ~ 6150 1900
+$Comp
+L Jumper_NO_Small JP149
+U 1 1 58B06DA4
+P 6050 1750
+F 0 "JP149" H 6050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 1690 50  0001 C CNN
+F 2 "lib:jump" H 6050 1750 50  0001 C CNN
+F 3 "" H 6050 1750 50  0000 C CNN
+	1    6050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1650 6150 1750
+Connection ~ 6150 1650
+$Comp
+L Jumper_NO_Small JP148
+U 1 1 58B06DAC
+P 6050 1500
+F 0 "JP148" H 6050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 1440 50  0001 C CNN
+F 2 "lib:jump" H 6050 1500 50  0001 C CNN
+F 3 "" H 6050 1500 50  0000 C CNN
+	1    6050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1400 6150 1500
+Connection ~ 6150 1400
+$Comp
+L Jumper_NO_Small JP147
+U 1 1 58B06DB4
+P 6050 1250
+F 0 "JP147" H 6050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 1190 50  0001 C CNN
+F 2 "lib:jump" H 6050 1250 50  0001 C CNN
+F 3 "" H 6050 1250 50  0000 C CNN
+	1    6050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1150 6150 1250
+Connection ~ 6150 1150
+Connection ~ 5950 2000
+Connection ~ 5950 1750
+Connection ~ 5950 1500
+$Comp
+L Jumper_NO_Small JP146
+U 1 1 58B06DBF
+P 6050 1000
+F 0 "JP146" H 6050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 940 50  0001 C CNN
+F 2 "lib:jump" H 6050 1000 50  0001 C CNN
+F 3 "" H 6050 1000 50  0000 C CNN
+	1    6050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 900  6150 1000
+Connection ~ 6150 900 
+$Comp
+L Jumper_NO_Small JP145
+U 1 1 58B06DC7
+P 6050 750
+F 0 "JP145" H 6050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 690 50  0001 C CNN
+F 2 "lib:jump" H 6050 750 50  0001 C CNN
+F 3 "" H 6050 750 50  0000 C CNN
+	1    6050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 650  6150 750 
+Connection ~ 6150 650 
+Connection ~ 5950 1000
+$Comp
+L CONN_01X02 P43
+U 1 1 58B06DD0
+P 6200 2250
+F 0 "P43" H 6200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 6300 2250 50  0000 C CNN
+F 2 "lib:2P" H 6200 2250 50  0001 C CNN
+F 3 "" H 6200 2250 50  0000 C CNN
+	1    6200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP151
+U 1 1 58B06DD9
+P 6050 2700
+F 0 "JP151" H 6050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 2640 50  0001 C CNN
+F 2 "lib:jump" H 6050 2700 50  0001 C CNN
+F 3 "" H 6050 2700 50  0000 C CNN
+	1    6050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP152
+U 1 1 58B06DDF
+P 6050 2850
+F 0 "JP152" H 6050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 2790 50  0001 C CNN
+F 2 "lib:jump" H 6050 2850 50  0001 C CNN
+F 3 "" H 6050 2850 50  0000 C CNN
+	1    6050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 2450 6150 2700
+Wire Wire Line
+	6250 2850 6150 2850
+Wire Wire Line
+	6250 2450 6250 2850
+Connection ~ 6150 2500
+Connection ~ 6250 2600
+Connection ~ 5950 2700
+Connection ~ 5950 2850
+$Comp
+L CONN_01X06 P45
+U 1 1 58B06DEE
+P 6650 3350
+F 0 "P45" H 6650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 6750 3350 50  0000 C CNN
+F 2 "lib:6p" H 6650 3350 50  0001 C CNN
+F 3 "" H 6650 3350 50  0000 C CNN
+	1    6650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 3200
+Connection ~ 6450 3300
+Connection ~ 6450 3400
+Connection ~ 6450 3500
+Connection ~ 6450 3100
+$Comp
+L Jumper_NO_Small JP166
+U 1 1 58B06DF9
+P 6550 2000
+F 0 "JP166" H 6550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 1940 50  0001 C CNN
+F 2 "lib:jump" H 6550 2000 50  0001 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+	1    6550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 750  6450 3600
+Wire Wire Line
+	6650 1900 6650 2000
+Connection ~ 6650 1900
+$Comp
+L Jumper_NO_Small JP165
+U 1 1 58B06E0A
+P 6550 1750
+F 0 "JP165" H 6550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 1690 50  0001 C CNN
+F 2 "lib:jump" H 6550 1750 50  0001 C CNN
+F 3 "" H 6550 1750 50  0000 C CNN
+	1    6550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 1650 6650 1750
+Connection ~ 6650 1650
+$Comp
+L Jumper_NO_Small JP164
+U 1 1 58B06E12
+P 6550 1500
+F 0 "JP164" H 6550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 1440 50  0001 C CNN
+F 2 "lib:jump" H 6550 1500 50  0001 C CNN
+F 3 "" H 6550 1500 50  0000 C CNN
+	1    6550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 1400 6650 1500
+Connection ~ 6650 1400
+$Comp
+L Jumper_NO_Small JP163
+U 1 1 58B06E1A
+P 6550 1250
+F 0 "JP163" H 6550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 1190 50  0001 C CNN
+F 2 "lib:jump" H 6550 1250 50  0001 C CNN
+F 3 "" H 6550 1250 50  0000 C CNN
+	1    6550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 1150 6650 1250
+Connection ~ 6650 1150
+Connection ~ 6450 2000
+Connection ~ 6450 1750
+Connection ~ 6450 1500
+$Comp
+L Jumper_NO_Small JP162
+U 1 1 58B06E25
+P 6550 1000
+F 0 "JP162" H 6550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 940 50  0001 C CNN
+F 2 "lib:jump" H 6550 1000 50  0001 C CNN
+F 3 "" H 6550 1000 50  0000 C CNN
+	1    6550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 900  6650 1000
+Connection ~ 6650 900 
+$Comp
+L Jumper_NO_Small JP161
+U 1 1 58B06E2D
+P 6550 750
+F 0 "JP161" H 6550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 690 50  0001 C CNN
+F 2 "lib:jump" H 6550 750 50  0001 C CNN
+F 3 "" H 6550 750 50  0000 C CNN
+	1    6550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 650  6650 750 
+Connection ~ 6650 650 
+Connection ~ 6450 1000
+$Comp
+L CONN_01X02 P47
+U 1 1 58B06E36
+P 6700 2250
+F 0 "P47" H 6700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 6800 2250 50  0000 C CNN
+F 2 "lib:2P" H 6700 2250 50  0001 C CNN
+F 3 "" H 6700 2250 50  0000 C CNN
+	1    6700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP167
+U 1 1 58B06E3F
+P 6550 2700
+F 0 "JP167" H 6550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 2640 50  0001 C CNN
+F 2 "lib:jump" H 6550 2700 50  0001 C CNN
+F 3 "" H 6550 2700 50  0000 C CNN
+	1    6550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP168
+U 1 1 58B06E45
+P 6550 2850
+F 0 "JP168" H 6550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 2790 50  0001 C CNN
+F 2 "lib:jump" H 6550 2850 50  0001 C CNN
+F 3 "" H 6550 2850 50  0000 C CNN
+	1    6550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 2450 6650 2700
+Wire Wire Line
+	6750 2850 6650 2850
+Wire Wire Line
+	6750 2450 6750 2850
+Connection ~ 6650 2500
+Connection ~ 6750 2600
+Connection ~ 6450 2700
+Connection ~ 6450 2850
+$Comp
+L CONN_01X06 P49
+U 1 1 58B06E54
+P 7150 3350
+F 0 "P49" H 7150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 7250 3350 50  0000 C CNN
+F 2 "lib:6p" H 7150 3350 50  0001 C CNN
+F 3 "" H 7150 3350 50  0000 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3200
+Connection ~ 6950 3300
+Connection ~ 6950 3400
+Connection ~ 6950 3500
+Connection ~ 6950 3100
+$Comp
+L Jumper_NO_Small JP182
+U 1 1 58B06E5F
+P 7050 2000
+F 0 "JP182" H 7050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 1940 50  0001 C CNN
+F 2 "lib:jump" H 7050 2000 50  0001 C CNN
+F 3 "" H 7050 2000 50  0000 C CNN
+	1    7050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 750  6950 3600
+Wire Wire Line
+	7150 1900 7150 2000
+Connection ~ 7150 1900
+$Comp
+L Jumper_NO_Small JP181
+U 1 1 58B06E70
+P 7050 1750
+F 0 "JP181" H 7050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 1690 50  0001 C CNN
+F 2 "lib:jump" H 7050 1750 50  0001 C CNN
+F 3 "" H 7050 1750 50  0000 C CNN
+	1    7050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 1650 7150 1750
+Connection ~ 7150 1650
+$Comp
+L Jumper_NO_Small JP180
+U 1 1 58B06E78
+P 7050 1500
+F 0 "JP180" H 7050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 1440 50  0001 C CNN
+F 2 "lib:jump" H 7050 1500 50  0001 C CNN
+F 3 "" H 7050 1500 50  0000 C CNN
+	1    7050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 1400 7150 1500
+Connection ~ 7150 1400
+$Comp
+L Jumper_NO_Small JP179
+U 1 1 58B06E80
+P 7050 1250
+F 0 "JP179" H 7050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 1190 50  0001 C CNN
+F 2 "lib:jump" H 7050 1250 50  0001 C CNN
+F 3 "" H 7050 1250 50  0000 C CNN
+	1    7050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 1150 7150 1250
+Connection ~ 7150 1150
+Connection ~ 6950 2000
+Connection ~ 6950 1750
+Connection ~ 6950 1500
+$Comp
+L Jumper_NO_Small JP178
+U 1 1 58B06E8B
+P 7050 1000
+F 0 "JP178" H 7050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 940 50  0001 C CNN
+F 2 "lib:jump" H 7050 1000 50  0001 C CNN
+F 3 "" H 7050 1000 50  0000 C CNN
+	1    7050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 900  7150 1000
+Connection ~ 7150 900 
+$Comp
+L Jumper_NO_Small JP177
+U 1 1 58B06E93
+P 7050 750
+F 0 "JP177" H 7050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 690 50  0001 C CNN
+F 2 "lib:jump" H 7050 750 50  0001 C CNN
+F 3 "" H 7050 750 50  0000 C CNN
+	1    7050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 650  7150 750 
+Connection ~ 7150 650 
+Connection ~ 6950 1000
+$Comp
+L CONN_01X02 P51
+U 1 1 58B06E9C
+P 7200 2250
+F 0 "P51" H 7200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 7300 2250 50  0000 C CNN
+F 2 "lib:2P" H 7200 2250 50  0001 C CNN
+F 3 "" H 7200 2250 50  0000 C CNN
+	1    7200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP183
+U 1 1 58B06EA5
+P 7050 2700
+F 0 "JP183" H 7050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 2640 50  0001 C CNN
+F 2 "lib:jump" H 7050 2700 50  0001 C CNN
+F 3 "" H 7050 2700 50  0000 C CNN
+	1    7050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP184
+U 1 1 58B06EAB
+P 7050 2850
+F 0 "JP184" H 7050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 2790 50  0001 C CNN
+F 2 "lib:jump" H 7050 2850 50  0001 C CNN
+F 3 "" H 7050 2850 50  0000 C CNN
+	1    7050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7150 2450 7150 2700
+Wire Wire Line
+	7250 2850 7150 2850
+Wire Wire Line
+	7250 2450 7250 2850
+Connection ~ 7150 2500
+Connection ~ 7250 2600
+Connection ~ 6950 2700
+Connection ~ 6950 2850
+$Comp
+L CONN_01X06 P53
+U 1 1 58B06EBA
+P 7650 3350
+F 0 "P53" H 7650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 7750 3350 50  0000 C CNN
+F 2 "lib:6p" H 7650 3350 50  0001 C CNN
+F 3 "" H 7650 3350 50  0000 C CNN
+	1    7650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 3200
+Connection ~ 7450 3300
+Connection ~ 7450 3400
+Connection ~ 7450 3500
+Connection ~ 7450 3100
+$Comp
+L Jumper_NO_Small JP198
+U 1 1 58B06EC5
+P 7550 2000
+F 0 "JP198" H 7550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 1940 50  0001 C CNN
+F 2 "lib:jump" H 7550 2000 50  0001 C CNN
+F 3 "" H 7550 2000 50  0000 C CNN
+	1    7550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 750  7450 3600
+Wire Wire Line
+	7650 1900 7650 2000
+Connection ~ 7650 1900
+$Comp
+L Jumper_NO_Small JP197
+U 1 1 58B06ED6
+P 7550 1750
+F 0 "JP197" H 7550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 1690 50  0001 C CNN
+F 2 "lib:jump" H 7550 1750 50  0001 C CNN
+F 3 "" H 7550 1750 50  0000 C CNN
+	1    7550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 1650 7650 1750
+Connection ~ 7650 1650
+$Comp
+L Jumper_NO_Small JP196
+U 1 1 58B06EDE
+P 7550 1500
+F 0 "JP196" H 7550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 1440 50  0001 C CNN
+F 2 "lib:jump" H 7550 1500 50  0001 C CNN
+F 3 "" H 7550 1500 50  0000 C CNN
+	1    7550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 1400 7650 1500
+Connection ~ 7650 1400
+$Comp
+L Jumper_NO_Small JP195
+U 1 1 58B06EE6
+P 7550 1250
+F 0 "JP195" H 7550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 1190 50  0001 C CNN
+F 2 "lib:jump" H 7550 1250 50  0001 C CNN
+F 3 "" H 7550 1250 50  0000 C CNN
+	1    7550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 1150 7650 1250
+Connection ~ 7650 1150
+Connection ~ 7450 2000
+Connection ~ 7450 1750
+Connection ~ 7450 1500
+$Comp
+L Jumper_NO_Small JP194
+U 1 1 58B06EF1
+P 7550 1000
+F 0 "JP194" H 7550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 940 50  0001 C CNN
+F 2 "lib:jump" H 7550 1000 50  0001 C CNN
+F 3 "" H 7550 1000 50  0000 C CNN
+	1    7550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 900  7650 1000
+Connection ~ 7650 900 
+$Comp
+L Jumper_NO_Small JP193
+U 1 1 58B06EF9
+P 7550 750
+F 0 "JP193" H 7550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 690 50  0001 C CNN
+F 2 "lib:jump" H 7550 750 50  0001 C CNN
+F 3 "" H 7550 750 50  0000 C CNN
+	1    7550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 650  7650 750 
+Connection ~ 7650 650 
+Connection ~ 7450 1000
+$Comp
+L CONN_01X02 P55
+U 1 1 58B06F02
+P 7700 2250
+F 0 "P55" H 7700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 7800 2250 50  0000 C CNN
+F 2 "lib:2P" H 7700 2250 50  0001 C CNN
+F 3 "" H 7700 2250 50  0000 C CNN
+	1    7700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP199
+U 1 1 58B06F0B
+P 7550 2700
+F 0 "JP199" H 7550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 2640 50  0001 C CNN
+F 2 "lib:jump" H 7550 2700 50  0001 C CNN
+F 3 "" H 7550 2700 50  0000 C CNN
+	1    7550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP200
+U 1 1 58B06F11
+P 7550 2850
+F 0 "JP200" H 7550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 2790 50  0001 C CNN
+F 2 "lib:jump" H 7550 2850 50  0001 C CNN
+F 3 "" H 7550 2850 50  0000 C CNN
+	1    7550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 2450 7650 2700
+Wire Wire Line
+	7750 2850 7650 2850
+Wire Wire Line
+	7750 2450 7750 2850
+Connection ~ 7650 2500
+Connection ~ 7750 2600
+Connection ~ 7450 2700
+Connection ~ 7450 2850
+$Comp
+L CONN_01X06 P57
+U 1 1 58B06F20
+P 8150 3350
+F 0 "P57" H 8150 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 8250 3350 50  0000 C CNN
+F 2 "lib:6p" H 8150 3350 50  0001 C CNN
+F 3 "" H 8150 3350 50  0000 C CNN
+	1    8150 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 3200
+Connection ~ 7950 3300
+Connection ~ 7950 3400
+Connection ~ 7950 3500
+Connection ~ 7950 3100
+$Comp
+L Jumper_NO_Small JP214
+U 1 1 58B06F2B
+P 8050 2000
+F 0 "JP214" H 8050 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 1940 50  0001 C CNN
+F 2 "lib:jump" H 8050 2000 50  0001 C CNN
+F 3 "" H 8050 2000 50  0000 C CNN
+	1    8050 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7950 750  7950 3600
+Wire Wire Line
+	8150 1900 8150 2000
+Connection ~ 8150 1900
+$Comp
+L Jumper_NO_Small JP213
+U 1 1 58B06F3C
+P 8050 1750
+F 0 "JP213" H 8050 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 1690 50  0001 C CNN
+F 2 "lib:jump" H 8050 1750 50  0001 C CNN
+F 3 "" H 8050 1750 50  0000 C CNN
+	1    8050 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 1650 8150 1750
+Connection ~ 8150 1650
+$Comp
+L Jumper_NO_Small JP212
+U 1 1 58B06F44
+P 8050 1500
+F 0 "JP212" H 8050 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 1440 50  0001 C CNN
+F 2 "lib:jump" H 8050 1500 50  0001 C CNN
+F 3 "" H 8050 1500 50  0000 C CNN
+	1    8050 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 1400 8150 1500
+Connection ~ 8150 1400
+$Comp
+L Jumper_NO_Small JP211
+U 1 1 58B06F4C
+P 8050 1250
+F 0 "JP211" H 8050 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 1190 50  0001 C CNN
+F 2 "lib:jump" H 8050 1250 50  0001 C CNN
+F 3 "" H 8050 1250 50  0000 C CNN
+	1    8050 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 1150 8150 1250
+Connection ~ 8150 1150
+Connection ~ 7950 2000
+Connection ~ 7950 1750
+Connection ~ 7950 1500
+$Comp
+L Jumper_NO_Small JP210
+U 1 1 58B06F57
+P 8050 1000
+F 0 "JP210" H 8050 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 940 50  0001 C CNN
+F 2 "lib:jump" H 8050 1000 50  0001 C CNN
+F 3 "" H 8050 1000 50  0000 C CNN
+	1    8050 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 900  8150 1000
+Connection ~ 8150 900 
+$Comp
+L Jumper_NO_Small JP209
+U 1 1 58B06F5F
+P 8050 750
+F 0 "JP209" H 8050 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 690 50  0001 C CNN
+F 2 "lib:jump" H 8050 750 50  0001 C CNN
+F 3 "" H 8050 750 50  0000 C CNN
+	1    8050 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 650  8150 750 
+Connection ~ 8150 650 
+Connection ~ 7950 1000
+$Comp
+L CONN_01X02 P59
+U 1 1 58B06F68
+P 8200 2250
+F 0 "P59" H 8200 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 8300 2250 50  0000 C CNN
+F 2 "lib:2P" H 8200 2250 50  0001 C CNN
+F 3 "" H 8200 2250 50  0000 C CNN
+	1    8200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP215
+U 1 1 58B06F71
+P 8050 2700
+F 0 "JP215" H 8050 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 2640 50  0001 C CNN
+F 2 "lib:jump" H 8050 2700 50  0001 C CNN
+F 3 "" H 8050 2700 50  0000 C CNN
+	1    8050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP216
+U 1 1 58B06F77
+P 8050 2850
+F 0 "JP216" H 8050 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 2790 50  0001 C CNN
+F 2 "lib:jump" H 8050 2850 50  0001 C CNN
+F 3 "" H 8050 2850 50  0000 C CNN
+	1    8050 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 2450 8150 2700
+Wire Wire Line
+	8250 2850 8150 2850
+Wire Wire Line
+	8250 2450 8250 2850
+Connection ~ 8150 2500
+Connection ~ 8250 2600
+Connection ~ 7950 2700
+Connection ~ 7950 2850
+$Comp
+L CONN_01X06 P61
+U 1 1 58B06F86
+P 8650 3350
+F 0 "P61" H 8650 3700 50  0000 C CNN
+F 1 "CONN_01X06" V 8750 3350 50  0000 C CNN
+F 2 "lib:6p" H 8650 3350 50  0001 C CNN
+F 3 "" H 8650 3350 50  0000 C CNN
+	1    8650 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 3200
+Connection ~ 8450 3300
+Connection ~ 8450 3400
+Connection ~ 8450 3500
+Connection ~ 8450 3100
+$Comp
+L Jumper_NO_Small JP230
+U 1 1 58B06F91
+P 8550 2000
+F 0 "JP230" H 8550 2080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 1940 50  0001 C CNN
+F 2 "lib:jump" H 8550 2000 50  0001 C CNN
+F 3 "" H 8550 2000 50  0000 C CNN
+	1    8550 2000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 750  8450 3600
+Wire Wire Line
+	8650 1900 8650 2000
+Connection ~ 8650 1900
+$Comp
+L Jumper_NO_Small JP229
+U 1 1 58B06FA2
+P 8550 1750
+F 0 "JP229" H 8550 1830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 1690 50  0001 C CNN
+F 2 "lib:jump" H 8550 1750 50  0001 C CNN
+F 3 "" H 8550 1750 50  0000 C CNN
+	1    8550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1650 8650 1750
+Connection ~ 8650 1650
+$Comp
+L Jumper_NO_Small JP228
+U 1 1 58B06FAA
+P 8550 1500
+F 0 "JP228" H 8550 1580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 1440 50  0001 C CNN
+F 2 "lib:jump" H 8550 1500 50  0001 C CNN
+F 3 "" H 8550 1500 50  0000 C CNN
+	1    8550 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1400 8650 1500
+Connection ~ 8650 1400
+$Comp
+L Jumper_NO_Small JP227
+U 1 1 58B06FB2
+P 8550 1250
+F 0 "JP227" H 8550 1330 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 1190 50  0001 C CNN
+F 2 "lib:jump" H 8550 1250 50  0001 C CNN
+F 3 "" H 8550 1250 50  0000 C CNN
+	1    8550 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 1150 8650 1250
+Connection ~ 8650 1150
+Connection ~ 8450 2000
+Connection ~ 8450 1750
+Connection ~ 8450 1500
+$Comp
+L Jumper_NO_Small JP226
+U 1 1 58B06FBD
+P 8550 1000
+F 0 "JP226" H 8550 1080 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 940 50  0001 C CNN
+F 2 "lib:jump" H 8550 1000 50  0001 C CNN
+F 3 "" H 8550 1000 50  0000 C CNN
+	1    8550 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 900  8650 1000
+Connection ~ 8650 900 
+$Comp
+L Jumper_NO_Small JP225
+U 1 1 58B06FC5
+P 8550 750
+F 0 "JP225" H 8550 830 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 690 50  0001 C CNN
+F 2 "lib:jump" H 8550 750 50  0001 C CNN
+F 3 "" H 8550 750 50  0000 C CNN
+	1    8550 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 650  8650 750 
+Connection ~ 8650 650 
+Connection ~ 8450 1000
+$Comp
+L CONN_01X02 P63
+U 1 1 58B06FCE
+P 8700 2250
+F 0 "P63" H 8700 2400 50  0000 C CNN
+F 1 "CONN_01X02" V 8800 2250 50  0000 C CNN
+F 2 "lib:2P" H 8700 2250 50  0001 C CNN
+F 3 "" H 8700 2250 50  0000 C CNN
+	1    8700 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP231
+U 1 1 58B06FD7
+P 8550 2700
+F 0 "JP231" H 8550 2780 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 2640 50  0001 C CNN
+F 2 "lib:jump" H 8550 2700 50  0001 C CNN
+F 3 "" H 8550 2700 50  0000 C CNN
+	1    8550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper_NO_Small JP232
+U 1 1 58B06FDD
+P 8550 2850
+F 0 "JP232" H 8550 2930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 2790 50  0001 C CNN
+F 2 "lib:jump" H 8550 2850 50  0001 C CNN
+F 3 "" H 8550 2850 50  0000 C CNN
+	1    8550 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8650 2450 8650 2700
+Wire Wire Line
+	8750 2850 8650 2850
+Wire Wire Line
+	8750 2450 8750 2850
+Connection ~ 8650 2500
+Connection ~ 8750 2600
+Connection ~ 8450 2700
+Connection ~ 8450 2850
+$Comp
+L CONN_01X06 P6
+U 1 1 58B20295
+P 1650 4000
+F 0 "P6" H 1650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 1750 4000 50  0000 C CNN
+F 2 "lib:6p" H 1650 4000 50  0001 C CNN
+F 3 "" H 1650 4000 50  0000 C CNN
+	1    1650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 1450 4150
+Connection ~ 1450 4050
+Connection ~ 1450 3950
+Connection ~ 1450 3850
+Connection ~ 1450 4250
+$Comp
+L Jumper_NO_Small JP11
+U 1 1 58B202A0
+P 1550 5350
+F 0 "JP11" H 1550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 5290 50  0001 C CNN
+F 2 "lib:jump" H 1550 5350 50  0001 C CNN
+F 3 "" H 1550 5350 50  0000 C CNN
+	1    1550 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 58B202A6
+P 1000 4850
+F 0 "#PWR03" H 1000 4700 50  0001 C CNN
+F 1 "VCC" H 1000 5000 50  0000 C CNN
+F 2 "" H 1000 4850 50  0000 C CNN
+F 3 "" H 1000 4850 50  0000 C CNN
+	1    1000 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 58B202AC
+P 1000 4750
+F 0 "#PWR04" H 1000 4500 50  0001 C CNN
+F 1 "GND" H 1000 4600 50  0000 C CNN
+F 2 "" H 1000 4750 50  0000 C CNN
+F 3 "" H 1000 4750 50  0000 C CNN
+	1    1000 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P8
+U 1 1 58B202B2
+P 1700 5100
+F 0 "P8" H 1700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 1800 5100 50  0000 C CNN
+F 2 "lib:2P" H 1700 5100 50  0001 C CNN
+F 3 "" H 1700 5100 50  0000 C CNN
+	1    1700 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1450 6600 1450 3750
+$Comp
+L CONN_01X06 P10
+U 1 1 58B202B9
+P 2150 4000
+F 0 "P10" H 2150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 2250 4000 50  0000 C CNN
+F 2 "lib:6p" H 2150 4000 50  0001 C CNN
+F 3 "" H 2150 4000 50  0000 C CNN
+	1    2150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 1950 4150
+Connection ~ 1950 4050
+Connection ~ 1950 3950
+Connection ~ 1950 3850
+Connection ~ 1950 4250
+$Comp
+L Jumper_NO_Small JP27
+U 1 1 58B202C4
+P 2050 5350
+F 0 "JP27" H 2050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 5290 50  0001 C CNN
+F 2 "lib:jump" H 2050 5350 50  0001 C CNN
+F 3 "" H 2050 5350 50  0000 C CNN
+	1    2050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6600 1950 3750
+Wire Wire Line
+	2150 5450 2150 5350
+Wire Wire Line
+	1000 5450 8650 5450
+Connection ~ 2150 5450
+Wire Wire Line
+	1650 5450 1650 5350
+$Comp
+L Jumper_NO_Small JP12
+U 1 1 58B202CF
+P 1550 5600
+F 0 "JP12" H 1550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 5540 50  0001 C CNN
+F 2 "lib:jump" H 1550 5600 50  0001 C CNN
+F 3 "" H 1550 5600 50  0000 C CNN
+	1    1550 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP28
+U 1 1 58B202D5
+P 2050 5600
+F 0 "JP28" H 2050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 5540 50  0001 C CNN
+F 2 "lib:jump" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 5600 50  0000 C CNN
+	1    2050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5700 2150 5600
+Wire Wire Line
+	1400 5700 8650 5700
+Connection ~ 2150 5700
+Wire Wire Line
+	1650 5700 1650 5600
+$Comp
+L Jumper_NO_Small JP13
+U 1 1 58B202DF
+P 1550 5850
+F 0 "JP13" H 1550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 5790 50  0001 C CNN
+F 2 "lib:jump" H 1550 5850 50  0001 C CNN
+F 3 "" H 1550 5850 50  0000 C CNN
+	1    1550 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP29
+U 1 1 58B202E5
+P 2050 5850
+F 0 "JP29" H 2050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 5790 50  0001 C CNN
+F 2 "lib:jump" H 2050 5850 50  0001 C CNN
+F 3 "" H 2050 5850 50  0000 C CNN
+	1    2050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5950 2150 5850
+Connection ~ 2150 5950
+Wire Wire Line
+	1650 5950 1650 5850
+$Comp
+L Jumper_NO_Small JP14
+U 1 1 58B202EE
+P 1550 6100
+F 0 "JP14" H 1550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 6040 50  0001 C CNN
+F 2 "lib:jump" H 1550 6100 50  0001 C CNN
+F 3 "" H 1550 6100 50  0000 C CNN
+	1    1550 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP30
+U 1 1 58B202F4
+P 2050 6100
+F 0 "JP30" H 2050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 6040 50  0001 C CNN
+F 2 "lib:jump" H 2050 6100 50  0001 C CNN
+F 3 "" H 2050 6100 50  0000 C CNN
+	1    2050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6200 2150 6100
+Wire Wire Line
+	1300 6200 8650 6200
+Connection ~ 2150 6200
+Wire Wire Line
+	1650 6200 1650 6100
+Connection ~ 1450 5850
+Connection ~ 1450 5600
+Connection ~ 1450 5350
+Connection ~ 1950 5350
+Connection ~ 1950 5600
+Connection ~ 1950 5850
+Connection ~ 1450 6100
+Wire Wire Line
+	1350 5950 8650 5950
+$Comp
+L CONN_01X06 P4
+U 1 1 58B20306
+P 800 5700
+F 0 "P4" H 800 6050 50  0000 C CNN
+F 1 "CONN_01X06" V 900 5700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 800 5700 50  0001 C CNN
+F 3 "" H 800 5700 50  0000 C CNN
+	1    800  5700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1650 5450
+Wire Wire Line
+	1000 5550 1400 5550
+Wire Wire Line
+	1400 5550 1400 5700
+Connection ~ 1650 5700
+Wire Wire Line
+	1000 5650 1350 5650
+Wire Wire Line
+	1350 5650 1350 5950
+Connection ~ 1650 5950
+Wire Wire Line
+	1000 5750 1300 5750
+Wire Wire Line
+	1300 5750 1300 6200
+Connection ~ 1650 6200
+$Comp
+L Jumper_NO_Small JP15
+U 1 1 58B20316
+P 1550 6350
+F 0 "JP15" H 1550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 6290 50  0001 C CNN
+F 2 "lib:jump" H 1550 6350 50  0001 C CNN
+F 3 "" H 1550 6350 50  0000 C CNN
+	1    1550 6350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP31
+U 1 1 58B2031C
+P 2050 6350
+F 0 "JP31" H 2050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 6290 50  0001 C CNN
+F 2 "lib:jump" H 2050 6350 50  0001 C CNN
+F 3 "" H 2050 6350 50  0000 C CNN
+	1    2050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6450 2150 6350
+Connection ~ 2150 6450
+Wire Wire Line
+	1650 6450 1650 6350
+$Comp
+L Jumper_NO_Small JP16
+U 1 1 58B20325
+P 1550 6600
+F 0 "JP16" H 1550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 6540 50  0001 C CNN
+F 2 "lib:jump" H 1550 6600 50  0001 C CNN
+F 3 "" H 1550 6600 50  0000 C CNN
+	1    1550 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP32
+U 1 1 58B2032B
+P 2050 6600
+F 0 "JP32" H 2050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 6540 50  0001 C CNN
+F 2 "lib:jump" H 2050 6600 50  0001 C CNN
+F 3 "" H 2050 6600 50  0000 C CNN
+	1    2050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 6700 2150 6600
+Wire Wire Line
+	1200 6700 8650 6700
+Connection ~ 2150 6700
+Wire Wire Line
+	1650 6700 1650 6600
+Connection ~ 1950 6350
+Wire Wire Line
+	1250 6450 8650 6450
+Connection ~ 1650 6450
+Connection ~ 1650 6700
+Wire Wire Line
+	1000 5850 1250 5850
+Wire Wire Line
+	1250 5850 1250 6450
+Wire Wire Line
+	1200 6700 1200 5950
+Wire Wire Line
+	1200 5950 1000 5950
+$Comp
+L CONN_01X02 P3
+U 1 1 58B2033E
+P 800 4800
+F 0 "P3" H 800 4950 50  0000 C CNN
+F 1 "CONN_01X02" V 900 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 800 4800 50  0001 C CNN
+F 3 "" H 800 4800 50  0000 C CNN
+	1    800  4800
+	-1   0    0    -1  
+$EndComp
+Connection ~ 1000 4850
+Connection ~ 1000 4750
+$Comp
+L Jumper_NO_Small JP10
+U 1 1 58B20346
+P 1550 4650
+F 0 "JP10" H 1550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 4590 50  0001 C CNN
+F 2 "lib:jump" H 1550 4650 50  0001 C CNN
+F 3 "" H 1550 4650 50  0000 C CNN
+	1    1550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP9
+U 1 1 58B2034C
+P 1550 4500
+F 0 "JP9" H 1550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1560 4440 50  0001 C CNN
+F 2 "lib:jump" H 1550 4500 50  0001 C CNN
+F 3 "" H 1550 4500 50  0000 C CNN
+	1    1550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4900 1650 4650
+Wire Wire Line
+	1750 4500 1650 4500
+Wire Wire Line
+	1750 4900 1750 4500
+Connection ~ 1650 4850
+Connection ~ 1750 4750
+Connection ~ 1450 4650
+Connection ~ 1450 4500
+$Comp
+L CONN_01X02 P12
+U 1 1 58B20359
+P 2200 5100
+F 0 "P12" H 2200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 2300 5100 50  0000 C CNN
+F 2 "lib:2P" H 2200 5100 50  0001 C CNN
+F 3 "" H 2200 5100 50  0000 C CNN
+	1    2200 5100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1000 4750 8750 4750
+Wire Wire Line
+	1000 4850 8650 4850
+$Comp
+L Jumper_NO_Small JP26
+U 1 1 58B20361
+P 2050 4650
+F 0 "JP26" H 2050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 4590 50  0001 C CNN
+F 2 "lib:jump" H 2050 4650 50  0001 C CNN
+F 3 "" H 2050 4650 50  0000 C CNN
+	1    2050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP25
+U 1 1 58B20367
+P 2050 4500
+F 0 "JP25" H 2050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2060 4440 50  0001 C CNN
+F 2 "lib:jump" H 2050 4500 50  0001 C CNN
+F 3 "" H 2050 4500 50  0000 C CNN
+	1    2050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4900 2150 4650
+Wire Wire Line
+	2250 4500 2150 4500
+Wire Wire Line
+	2250 4900 2250 4500
+Connection ~ 2150 4850
+Connection ~ 2250 4750
+Connection ~ 1950 4650
+Connection ~ 1950 4500
+$Comp
+L CONN_01X06 P14
+U 1 1 58B20374
+P 2650 4000
+F 0 "P14" H 2650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 2750 4000 50  0000 C CNN
+F 2 "lib:6p" H 2650 4000 50  0001 C CNN
+F 3 "" H 2650 4000 50  0000 C CNN
+	1    2650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 2450 4150
+Connection ~ 2450 4050
+Connection ~ 2450 3950
+Connection ~ 2450 3850
+Connection ~ 2450 4250
+$Comp
+L Jumper_NO_Small JP43
+U 1 1 58B2037F
+P 2550 5350
+F 0 "JP43" H 2550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 5290 50  0001 C CNN
+F 2 "lib:jump" H 2550 5350 50  0001 C CNN
+F 3 "" H 2550 5350 50  0000 C CNN
+	1    2550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 6600 2450 3750
+Wire Wire Line
+	2650 5450 2650 5350
+Connection ~ 2650 5450
+$Comp
+L Jumper_NO_Small JP44
+U 1 1 58B20388
+P 2550 5600
+F 0 "JP44" H 2550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 5540 50  0001 C CNN
+F 2 "lib:jump" H 2550 5600 50  0001 C CNN
+F 3 "" H 2550 5600 50  0000 C CNN
+	1    2550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5700 2650 5600
+Connection ~ 2650 5700
+$Comp
+L Jumper_NO_Small JP45
+U 1 1 58B20390
+P 2550 5850
+F 0 "JP45" H 2550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 5790 50  0001 C CNN
+F 2 "lib:jump" H 2550 5850 50  0001 C CNN
+F 3 "" H 2550 5850 50  0000 C CNN
+	1    2550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 5950 2650 5850
+Connection ~ 2650 5950
+$Comp
+L Jumper_NO_Small JP46
+U 1 1 58B20398
+P 2550 6100
+F 0 "JP46" H 2550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 6040 50  0001 C CNN
+F 2 "lib:jump" H 2550 6100 50  0001 C CNN
+F 3 "" H 2550 6100 50  0000 C CNN
+	1    2550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6200 2650 6100
+Connection ~ 2650 6200
+Connection ~ 2450 5350
+Connection ~ 2450 5600
+Connection ~ 2450 5850
+$Comp
+L Jumper_NO_Small JP47
+U 1 1 58B203A3
+P 2550 6350
+F 0 "JP47" H 2550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 6290 50  0001 C CNN
+F 2 "lib:jump" H 2550 6350 50  0001 C CNN
+F 3 "" H 2550 6350 50  0000 C CNN
+	1    2550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6450 2650 6350
+Connection ~ 2650 6450
+$Comp
+L Jumper_NO_Small JP48
+U 1 1 58B203AB
+P 2550 6600
+F 0 "JP48" H 2550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 6540 50  0001 C CNN
+F 2 "lib:jump" H 2550 6600 50  0001 C CNN
+F 3 "" H 2550 6600 50  0000 C CNN
+	1    2550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 6700 2650 6600
+Connection ~ 2650 6700
+Connection ~ 2450 6350
+$Comp
+L CONN_01X02 P16
+U 1 1 58B203B4
+P 2700 5100
+F 0 "P16" H 2700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 2800 5100 50  0000 C CNN
+F 2 "lib:2P" H 2700 5100 50  0001 C CNN
+F 3 "" H 2700 5100 50  0000 C CNN
+	1    2700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP42
+U 1 1 58B203BA
+P 2550 4650
+F 0 "JP42" H 2550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 4590 50  0001 C CNN
+F 2 "lib:jump" H 2550 4650 50  0001 C CNN
+F 3 "" H 2550 4650 50  0000 C CNN
+	1    2550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP41
+U 1 1 58B203C0
+P 2550 4500
+F 0 "JP41" H 2550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2560 4440 50  0001 C CNN
+F 2 "lib:jump" H 2550 4500 50  0001 C CNN
+F 3 "" H 2550 4500 50  0000 C CNN
+	1    2550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4900 2650 4650
+Wire Wire Line
+	2750 4500 2650 4500
+Wire Wire Line
+	2750 4900 2750 4500
+Connection ~ 2650 4850
+Connection ~ 2750 4750
+Connection ~ 2450 4650
+Connection ~ 2450 4500
+$Comp
+L CONN_01X06 P18
+U 1 1 58B203CD
+P 3150 4000
+F 0 "P18" H 3150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 3250 4000 50  0000 C CNN
+F 2 "lib:6p" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0000 C CNN
+	1    3150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 2950 4150
+Connection ~ 2950 4050
+Connection ~ 2950 3950
+Connection ~ 2950 3850
+Connection ~ 2950 4250
+$Comp
+L Jumper_NO_Small JP59
+U 1 1 58B203D8
+P 3050 5350
+F 0 "JP59" H 3050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 5290 50  0001 C CNN
+F 2 "lib:jump" H 3050 5350 50  0001 C CNN
+F 3 "" H 3050 5350 50  0000 C CNN
+	1    3050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6600 2950 3750
+Wire Wire Line
+	3150 5450 3150 5350
+Connection ~ 3150 5450
+$Comp
+L Jumper_NO_Small JP60
+U 1 1 58B203E1
+P 3050 5600
+F 0 "JP60" H 3050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 5540 50  0001 C CNN
+F 2 "lib:jump" H 3050 5600 50  0001 C CNN
+F 3 "" H 3050 5600 50  0000 C CNN
+	1    3050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5700 3150 5600
+Connection ~ 3150 5700
+$Comp
+L Jumper_NO_Small JP61
+U 1 1 58B203E9
+P 3050 5850
+F 0 "JP61" H 3050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 5790 50  0001 C CNN
+F 2 "lib:jump" H 3050 5850 50  0001 C CNN
+F 3 "" H 3050 5850 50  0000 C CNN
+	1    3050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5950 3150 5850
+Connection ~ 3150 5950
+$Comp
+L Jumper_NO_Small JP62
+U 1 1 58B203F1
+P 3050 6100
+F 0 "JP62" H 3050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 6040 50  0001 C CNN
+F 2 "lib:jump" H 3050 6100 50  0001 C CNN
+F 3 "" H 3050 6100 50  0000 C CNN
+	1    3050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6200 3150 6100
+Connection ~ 3150 6200
+Connection ~ 2950 5350
+Connection ~ 2950 5600
+Connection ~ 2950 5850
+$Comp
+L Jumper_NO_Small JP63
+U 1 1 58B203FC
+P 3050 6350
+F 0 "JP63" H 3050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 6290 50  0001 C CNN
+F 2 "lib:jump" H 3050 6350 50  0001 C CNN
+F 3 "" H 3050 6350 50  0000 C CNN
+	1    3050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6450 3150 6350
+Connection ~ 3150 6450
+$Comp
+L Jumper_NO_Small JP64
+U 1 1 58B20404
+P 3050 6600
+F 0 "JP64" H 3050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 6540 50  0001 C CNN
+F 2 "lib:jump" H 3050 6600 50  0001 C CNN
+F 3 "" H 3050 6600 50  0000 C CNN
+	1    3050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6700 3150 6600
+Connection ~ 3150 6700
+Connection ~ 2950 6350
+$Comp
+L CONN_01X02 P20
+U 1 1 58B2040D
+P 3200 5100
+F 0 "P20" H 3200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 3300 5100 50  0000 C CNN
+F 2 "lib:2P" H 3200 5100 50  0001 C CNN
+F 3 "" H 3200 5100 50  0000 C CNN
+	1    3200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP58
+U 1 1 58B20413
+P 3050 4650
+F 0 "JP58" H 3050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 4590 50  0001 C CNN
+F 2 "lib:jump" H 3050 4650 50  0001 C CNN
+F 3 "" H 3050 4650 50  0000 C CNN
+	1    3050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP57
+U 1 1 58B20419
+P 3050 4500
+F 0 "JP57" H 3050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3060 4440 50  0001 C CNN
+F 2 "lib:jump" H 3050 4500 50  0001 C CNN
+F 3 "" H 3050 4500 50  0000 C CNN
+	1    3050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4900 3150 4650
+Wire Wire Line
+	3250 4500 3150 4500
+Wire Wire Line
+	3250 4900 3250 4500
+Connection ~ 3150 4850
+Connection ~ 3250 4750
+Connection ~ 2950 4650
+Connection ~ 2950 4500
+$Comp
+L CONN_01X06 P22
+U 1 1 58B20426
+P 3650 4000
+F 0 "P22" H 3650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 3750 4000 50  0000 C CNN
+F 2 "lib:6p" H 3650 4000 50  0001 C CNN
+F 3 "" H 3650 4000 50  0000 C CNN
+	1    3650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 3450 4150
+Connection ~ 3450 4050
+Connection ~ 3450 3950
+Connection ~ 3450 3850
+Connection ~ 3450 4250
+$Comp
+L Jumper_NO_Small JP75
+U 1 1 58B20431
+P 3550 5350
+F 0 "JP75" H 3550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 5290 50  0001 C CNN
+F 2 "lib:jump" H 3550 5350 50  0001 C CNN
+F 3 "" H 3550 5350 50  0000 C CNN
+	1    3550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6600 3450 3750
+Wire Wire Line
+	3650 5450 3650 5350
+Connection ~ 3650 5450
+$Comp
+L Jumper_NO_Small JP76
+U 1 1 58B2043A
+P 3550 5600
+F 0 "JP76" H 3550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 5540 50  0001 C CNN
+F 2 "lib:jump" H 3550 5600 50  0001 C CNN
+F 3 "" H 3550 5600 50  0000 C CNN
+	1    3550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5700 3650 5600
+Connection ~ 3650 5700
+$Comp
+L Jumper_NO_Small JP77
+U 1 1 58B20442
+P 3550 5850
+F 0 "JP77" H 3550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 5790 50  0001 C CNN
+F 2 "lib:jump" H 3550 5850 50  0001 C CNN
+F 3 "" H 3550 5850 50  0000 C CNN
+	1    3550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5950 3650 5850
+Connection ~ 3650 5950
+$Comp
+L Jumper_NO_Small JP78
+U 1 1 58B2044A
+P 3550 6100
+F 0 "JP78" H 3550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 6040 50  0001 C CNN
+F 2 "lib:jump" H 3550 6100 50  0001 C CNN
+F 3 "" H 3550 6100 50  0000 C CNN
+	1    3550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6200 3650 6100
+Connection ~ 3650 6200
+Connection ~ 3450 5350
+Connection ~ 3450 5600
+Connection ~ 3450 5850
+$Comp
+L Jumper_NO_Small JP79
+U 1 1 58B20455
+P 3550 6350
+F 0 "JP79" H 3550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 6290 50  0001 C CNN
+F 2 "lib:jump" H 3550 6350 50  0001 C CNN
+F 3 "" H 3550 6350 50  0000 C CNN
+	1    3550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6450 3650 6350
+Connection ~ 3650 6450
+$Comp
+L Jumper_NO_Small JP80
+U 1 1 58B2045D
+P 3550 6600
+F 0 "JP80" H 3550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 6540 50  0001 C CNN
+F 2 "lib:jump" H 3550 6600 50  0001 C CNN
+F 3 "" H 3550 6600 50  0000 C CNN
+	1    3550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6700 3650 6600
+Connection ~ 3650 6700
+Connection ~ 3450 6350
+$Comp
+L CONN_01X02 P24
+U 1 1 58B20466
+P 3700 5100
+F 0 "P24" H 3700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 3800 5100 50  0000 C CNN
+F 2 "lib:2P" H 3700 5100 50  0001 C CNN
+F 3 "" H 3700 5100 50  0000 C CNN
+	1    3700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP74
+U 1 1 58B2046C
+P 3550 4650
+F 0 "JP74" H 3550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 4590 50  0001 C CNN
+F 2 "lib:jump" H 3550 4650 50  0001 C CNN
+F 3 "" H 3550 4650 50  0000 C CNN
+	1    3550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP73
+U 1 1 58B20472
+P 3550 4500
+F 0 "JP73" H 3550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3560 4440 50  0001 C CNN
+F 2 "lib:jump" H 3550 4500 50  0001 C CNN
+F 3 "" H 3550 4500 50  0000 C CNN
+	1    3550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4900 3650 4650
+Wire Wire Line
+	3750 4500 3650 4500
+Wire Wire Line
+	3750 4900 3750 4500
+Connection ~ 3650 4850
+Connection ~ 3750 4750
+Connection ~ 3450 4650
+Connection ~ 3450 4500
+$Comp
+L CONN_01X06 P26
+U 1 1 58B2047F
+P 4150 4000
+F 0 "P26" H 4150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 4250 4000 50  0000 C CNN
+F 2 "lib:6p" H 4150 4000 50  0001 C CNN
+F 3 "" H 4150 4000 50  0000 C CNN
+	1    4150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 3950 4150
+Connection ~ 3950 4050
+Connection ~ 3950 3950
+Connection ~ 3950 3850
+Connection ~ 3950 4250
+$Comp
+L Jumper_NO_Small JP91
+U 1 1 58B2048A
+P 4050 5350
+F 0 "JP91" H 4050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 5290 50  0001 C CNN
+F 2 "lib:jump" H 4050 5350 50  0001 C CNN
+F 3 "" H 4050 5350 50  0000 C CNN
+	1    4050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6600 3950 3750
+Wire Wire Line
+	4150 5450 4150 5350
+Connection ~ 4150 5450
+$Comp
+L Jumper_NO_Small JP92
+U 1 1 58B20493
+P 4050 5600
+F 0 "JP92" H 4050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 5540 50  0001 C CNN
+F 2 "lib:jump" H 4050 5600 50  0001 C CNN
+F 3 "" H 4050 5600 50  0000 C CNN
+	1    4050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5700 4150 5600
+Connection ~ 4150 5700
+$Comp
+L Jumper_NO_Small JP93
+U 1 1 58B2049B
+P 4050 5850
+F 0 "JP93" H 4050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 5790 50  0001 C CNN
+F 2 "lib:jump" H 4050 5850 50  0001 C CNN
+F 3 "" H 4050 5850 50  0000 C CNN
+	1    4050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5950 4150 5850
+Connection ~ 4150 5950
+$Comp
+L Jumper_NO_Small JP94
+U 1 1 58B204A3
+P 4050 6100
+F 0 "JP94" H 4050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 6040 50  0001 C CNN
+F 2 "lib:jump" H 4050 6100 50  0001 C CNN
+F 3 "" H 4050 6100 50  0000 C CNN
+	1    4050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6200 4150 6100
+Connection ~ 4150 6200
+Connection ~ 3950 5350
+Connection ~ 3950 5600
+Connection ~ 3950 5850
+$Comp
+L Jumper_NO_Small JP95
+U 1 1 58B204AE
+P 4050 6350
+F 0 "JP95" H 4050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 6290 50  0001 C CNN
+F 2 "lib:jump" H 4050 6350 50  0001 C CNN
+F 3 "" H 4050 6350 50  0000 C CNN
+	1    4050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6450 4150 6350
+Connection ~ 4150 6450
+$Comp
+L Jumper_NO_Small JP96
+U 1 1 58B204B6
+P 4050 6600
+F 0 "JP96" H 4050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 6540 50  0001 C CNN
+F 2 "lib:jump" H 4050 6600 50  0001 C CNN
+F 3 "" H 4050 6600 50  0000 C CNN
+	1    4050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6700 4150 6600
+Connection ~ 4150 6700
+Connection ~ 3950 6350
+$Comp
+L CONN_01X02 P28
+U 1 1 58B204BF
+P 4200 5100
+F 0 "P28" H 4200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 4300 5100 50  0000 C CNN
+F 2 "lib:2P" H 4200 5100 50  0001 C CNN
+F 3 "" H 4200 5100 50  0000 C CNN
+	1    4200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP90
+U 1 1 58B204C5
+P 4050 4650
+F 0 "JP90" H 4050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 4590 50  0001 C CNN
+F 2 "lib:jump" H 4050 4650 50  0001 C CNN
+F 3 "" H 4050 4650 50  0000 C CNN
+	1    4050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP89
+U 1 1 58B204CB
+P 4050 4500
+F 0 "JP89" H 4050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4060 4440 50  0001 C CNN
+F 2 "lib:jump" H 4050 4500 50  0001 C CNN
+F 3 "" H 4050 4500 50  0000 C CNN
+	1    4050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4900 4150 4650
+Wire Wire Line
+	4250 4500 4150 4500
+Wire Wire Line
+	4250 4900 4250 4500
+Connection ~ 4150 4850
+Connection ~ 4250 4750
+Connection ~ 3950 4650
+Connection ~ 3950 4500
+$Comp
+L CONN_01X06 P30
+U 1 1 58B204D8
+P 4650 4000
+F 0 "P30" H 4650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 4750 4000 50  0000 C CNN
+F 2 "lib:6p" H 4650 4000 50  0001 C CNN
+F 3 "" H 4650 4000 50  0000 C CNN
+	1    4650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 4450 4150
+Connection ~ 4450 4050
+Connection ~ 4450 3950
+Connection ~ 4450 3850
+Connection ~ 4450 4250
+$Comp
+L Jumper_NO_Small JP107
+U 1 1 58B204E3
+P 4550 5350
+F 0 "JP107" H 4550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 5290 50  0001 C CNN
+F 2 "lib:jump" H 4550 5350 50  0001 C CNN
+F 3 "" H 4550 5350 50  0000 C CNN
+	1    4550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 6600 4450 3750
+Wire Wire Line
+	4650 5450 4650 5350
+Connection ~ 4650 5450
+$Comp
+L Jumper_NO_Small JP108
+U 1 1 58B204EC
+P 4550 5600
+F 0 "JP108" H 4550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 5540 50  0001 C CNN
+F 2 "lib:jump" H 4550 5600 50  0001 C CNN
+F 3 "" H 4550 5600 50  0000 C CNN
+	1    4550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5700 4650 5600
+Connection ~ 4650 5700
+$Comp
+L Jumper_NO_Small JP109
+U 1 1 58B204F4
+P 4550 5850
+F 0 "JP109" H 4550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 5790 50  0001 C CNN
+F 2 "lib:jump" H 4550 5850 50  0001 C CNN
+F 3 "" H 4550 5850 50  0000 C CNN
+	1    4550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5950 4650 5850
+Connection ~ 4650 5950
+$Comp
+L Jumper_NO_Small JP110
+U 1 1 58B204FC
+P 4550 6100
+F 0 "JP110" H 4550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 6040 50  0001 C CNN
+F 2 "lib:jump" H 4550 6100 50  0001 C CNN
+F 3 "" H 4550 6100 50  0000 C CNN
+	1    4550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6200 4650 6100
+Connection ~ 4650 6200
+Connection ~ 4450 5350
+Connection ~ 4450 5600
+Connection ~ 4450 5850
+$Comp
+L Jumper_NO_Small JP111
+U 1 1 58B20507
+P 4550 6350
+F 0 "JP111" H 4550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 6290 50  0001 C CNN
+F 2 "lib:jump" H 4550 6350 50  0001 C CNN
+F 3 "" H 4550 6350 50  0000 C CNN
+	1    4550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6450 4650 6350
+Connection ~ 4650 6450
+$Comp
+L Jumper_NO_Small JP112
+U 1 1 58B2050F
+P 4550 6600
+F 0 "JP112" H 4550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 6540 50  0001 C CNN
+F 2 "lib:jump" H 4550 6600 50  0001 C CNN
+F 3 "" H 4550 6600 50  0000 C CNN
+	1    4550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6700 4650 6600
+Connection ~ 4650 6700
+Connection ~ 4450 6350
+$Comp
+L CONN_01X02 P32
+U 1 1 58B20518
+P 4700 5100
+F 0 "P32" H 4700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 4800 5100 50  0000 C CNN
+F 2 "lib:2P" H 4700 5100 50  0001 C CNN
+F 3 "" H 4700 5100 50  0000 C CNN
+	1    4700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP106
+U 1 1 58B2051E
+P 4550 4650
+F 0 "JP106" H 4550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 4590 50  0001 C CNN
+F 2 "lib:jump" H 4550 4650 50  0001 C CNN
+F 3 "" H 4550 4650 50  0000 C CNN
+	1    4550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP105
+U 1 1 58B20524
+P 4550 4500
+F 0 "JP105" H 4550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 4560 4440 50  0001 C CNN
+F 2 "lib:jump" H 4550 4500 50  0001 C CNN
+F 3 "" H 4550 4500 50  0000 C CNN
+	1    4550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4900 4650 4650
+Wire Wire Line
+	4750 4500 4650 4500
+Wire Wire Line
+	4750 4900 4750 4500
+Connection ~ 4650 4850
+Connection ~ 4750 4750
+Connection ~ 4450 4650
+Connection ~ 4450 4500
+$Comp
+L CONN_01X06 P34
+U 1 1 58B20531
+P 5150 4000
+F 0 "P34" H 5150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 5250 4000 50  0000 C CNN
+F 2 "lib:6p" H 5150 4000 50  0001 C CNN
+F 3 "" H 5150 4000 50  0000 C CNN
+	1    5150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 4950 4150
+Connection ~ 4950 4050
+Connection ~ 4950 3950
+Connection ~ 4950 3850
+Connection ~ 4950 4250
+$Comp
+L Jumper_NO_Small JP123
+U 1 1 58B2053C
+P 5050 5350
+F 0 "JP123" H 5050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 5290 50  0001 C CNN
+F 2 "lib:jump" H 5050 5350 50  0001 C CNN
+F 3 "" H 5050 5350 50  0000 C CNN
+	1    5050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6600 4950 3750
+Wire Wire Line
+	5150 5450 5150 5350
+Connection ~ 5150 5450
+$Comp
+L Jumper_NO_Small JP124
+U 1 1 58B20545
+P 5050 5600
+F 0 "JP124" H 5050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 5540 50  0001 C CNN
+F 2 "lib:jump" H 5050 5600 50  0001 C CNN
+F 3 "" H 5050 5600 50  0000 C CNN
+	1    5050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5700 5150 5600
+Connection ~ 5150 5700
+$Comp
+L Jumper_NO_Small JP125
+U 1 1 58B2054D
+P 5050 5850
+F 0 "JP125" H 5050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 5790 50  0001 C CNN
+F 2 "lib:jump" H 5050 5850 50  0001 C CNN
+F 3 "" H 5050 5850 50  0000 C CNN
+	1    5050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5950 5150 5850
+Connection ~ 5150 5950
+$Comp
+L Jumper_NO_Small JP126
+U 1 1 58B20555
+P 5050 6100
+F 0 "JP126" H 5050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 6040 50  0001 C CNN
+F 2 "lib:jump" H 5050 6100 50  0001 C CNN
+F 3 "" H 5050 6100 50  0000 C CNN
+	1    5050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6200 5150 6100
+Connection ~ 5150 6200
+Connection ~ 4950 5350
+Connection ~ 4950 5600
+Connection ~ 4950 5850
+$Comp
+L Jumper_NO_Small JP127
+U 1 1 58B20560
+P 5050 6350
+F 0 "JP127" H 5050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 6290 50  0001 C CNN
+F 2 "lib:jump" H 5050 6350 50  0001 C CNN
+F 3 "" H 5050 6350 50  0000 C CNN
+	1    5050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6450 5150 6350
+Connection ~ 5150 6450
+$Comp
+L Jumper_NO_Small JP128
+U 1 1 58B20568
+P 5050 6600
+F 0 "JP128" H 5050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 6540 50  0001 C CNN
+F 2 "lib:jump" H 5050 6600 50  0001 C CNN
+F 3 "" H 5050 6600 50  0000 C CNN
+	1    5050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6700 5150 6600
+Connection ~ 5150 6700
+Connection ~ 4950 6350
+$Comp
+L CONN_01X02 P36
+U 1 1 58B20571
+P 5200 5100
+F 0 "P36" H 5200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 5300 5100 50  0000 C CNN
+F 2 "lib:2P" H 5200 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0000 C CNN
+	1    5200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP122
+U 1 1 58B20577
+P 5050 4650
+F 0 "JP122" H 5050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 4590 50  0001 C CNN
+F 2 "lib:jump" H 5050 4650 50  0001 C CNN
+F 3 "" H 5050 4650 50  0000 C CNN
+	1    5050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP121
+U 1 1 58B2057D
+P 5050 4500
+F 0 "JP121" H 5050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5060 4440 50  0001 C CNN
+F 2 "lib:jump" H 5050 4500 50  0001 C CNN
+F 3 "" H 5050 4500 50  0000 C CNN
+	1    5050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4900 5150 4650
+Wire Wire Line
+	5250 4500 5150 4500
+Wire Wire Line
+	5250 4900 5250 4500
+Connection ~ 5150 4850
+Connection ~ 5250 4750
+Connection ~ 4950 4650
+Connection ~ 4950 4500
+$Comp
+L CONN_01X06 P38
+U 1 1 58B2058A
+P 5650 4000
+F 0 "P38" H 5650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 5750 4000 50  0000 C CNN
+F 2 "lib:6p" H 5650 4000 50  0001 C CNN
+F 3 "" H 5650 4000 50  0000 C CNN
+	1    5650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 5450 4150
+Connection ~ 5450 4050
+Connection ~ 5450 3950
+Connection ~ 5450 3850
+Connection ~ 5450 4250
+$Comp
+L Jumper_NO_Small JP139
+U 1 1 58B20595
+P 5550 5350
+F 0 "JP139" H 5550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 5290 50  0001 C CNN
+F 2 "lib:jump" H 5550 5350 50  0001 C CNN
+F 3 "" H 5550 5350 50  0000 C CNN
+	1    5550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6600 5450 3750
+Wire Wire Line
+	5650 5450 5650 5350
+Connection ~ 5650 5450
+$Comp
+L Jumper_NO_Small JP140
+U 1 1 58B2059E
+P 5550 5600
+F 0 "JP140" H 5550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 5540 50  0001 C CNN
+F 2 "lib:jump" H 5550 5600 50  0001 C CNN
+F 3 "" H 5550 5600 50  0000 C CNN
+	1    5550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5700 5650 5600
+Connection ~ 5650 5700
+$Comp
+L Jumper_NO_Small JP141
+U 1 1 58B205A6
+P 5550 5850
+F 0 "JP141" H 5550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 5790 50  0001 C CNN
+F 2 "lib:jump" H 5550 5850 50  0001 C CNN
+F 3 "" H 5550 5850 50  0000 C CNN
+	1    5550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5950 5650 5850
+Connection ~ 5650 5950
+$Comp
+L Jumper_NO_Small JP142
+U 1 1 58B205AE
+P 5550 6100
+F 0 "JP142" H 5550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 6040 50  0001 C CNN
+F 2 "lib:jump" H 5550 6100 50  0001 C CNN
+F 3 "" H 5550 6100 50  0000 C CNN
+	1    5550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6200 5650 6100
+Connection ~ 5650 6200
+Connection ~ 5450 5350
+Connection ~ 5450 5600
+Connection ~ 5450 5850
+$Comp
+L Jumper_NO_Small JP143
+U 1 1 58B205B9
+P 5550 6350
+F 0 "JP143" H 5550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 6290 50  0001 C CNN
+F 2 "lib:jump" H 5550 6350 50  0001 C CNN
+F 3 "" H 5550 6350 50  0000 C CNN
+	1    5550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6450 5650 6350
+Connection ~ 5650 6450
+$Comp
+L Jumper_NO_Small JP144
+U 1 1 58B205C1
+P 5550 6600
+F 0 "JP144" H 5550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 6540 50  0001 C CNN
+F 2 "lib:jump" H 5550 6600 50  0001 C CNN
+F 3 "" H 5550 6600 50  0000 C CNN
+	1    5550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6700 5650 6600
+Connection ~ 5650 6700
+Connection ~ 5450 6350
+$Comp
+L CONN_01X02 P40
+U 1 1 58B205CA
+P 5700 5100
+F 0 "P40" H 5700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 5800 5100 50  0000 C CNN
+F 2 "lib:2P" H 5700 5100 50  0001 C CNN
+F 3 "" H 5700 5100 50  0000 C CNN
+	1    5700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP138
+U 1 1 58B205D0
+P 5550 4650
+F 0 "JP138" H 5550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 4590 50  0001 C CNN
+F 2 "lib:jump" H 5550 4650 50  0001 C CNN
+F 3 "" H 5550 4650 50  0000 C CNN
+	1    5550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP137
+U 1 1 58B205D6
+P 5550 4500
+F 0 "JP137" H 5550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 5560 4440 50  0001 C CNN
+F 2 "lib:jump" H 5550 4500 50  0001 C CNN
+F 3 "" H 5550 4500 50  0000 C CNN
+	1    5550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4900 5650 4650
+Wire Wire Line
+	5750 4500 5650 4500
+Wire Wire Line
+	5750 4900 5750 4500
+Connection ~ 5650 4850
+Connection ~ 5750 4750
+Connection ~ 5450 4650
+Connection ~ 5450 4500
+$Comp
+L CONN_01X06 P42
+U 1 1 58B205E3
+P 6150 4000
+F 0 "P42" H 6150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 6250 4000 50  0000 C CNN
+F 2 "lib:6p" H 6150 4000 50  0001 C CNN
+F 3 "" H 6150 4000 50  0000 C CNN
+	1    6150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 5950 4150
+Connection ~ 5950 4050
+Connection ~ 5950 3950
+Connection ~ 5950 3850
+Connection ~ 5950 4250
+$Comp
+L Jumper_NO_Small JP155
+U 1 1 58B205EE
+P 6050 5350
+F 0 "JP155" H 6050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 5290 50  0001 C CNN
+F 2 "lib:jump" H 6050 5350 50  0001 C CNN
+F 3 "" H 6050 5350 50  0000 C CNN
+	1    6050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 6600 5950 3750
+Wire Wire Line
+	6150 5450 6150 5350
+Connection ~ 6150 5450
+$Comp
+L Jumper_NO_Small JP156
+U 1 1 58B205F7
+P 6050 5600
+F 0 "JP156" H 6050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 5540 50  0001 C CNN
+F 2 "lib:jump" H 6050 5600 50  0001 C CNN
+F 3 "" H 6050 5600 50  0000 C CNN
+	1    6050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5700 6150 5600
+Connection ~ 6150 5700
+$Comp
+L Jumper_NO_Small JP157
+U 1 1 58B205FF
+P 6050 5850
+F 0 "JP157" H 6050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 5790 50  0001 C CNN
+F 2 "lib:jump" H 6050 5850 50  0001 C CNN
+F 3 "" H 6050 5850 50  0000 C CNN
+	1    6050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5950 6150 5850
+Connection ~ 6150 5950
+$Comp
+L Jumper_NO_Small JP158
+U 1 1 58B20607
+P 6050 6100
+F 0 "JP158" H 6050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 6040 50  0001 C CNN
+F 2 "lib:jump" H 6050 6100 50  0001 C CNN
+F 3 "" H 6050 6100 50  0000 C CNN
+	1    6050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6200 6150 6100
+Connection ~ 6150 6200
+Connection ~ 5950 5350
+Connection ~ 5950 5600
+Connection ~ 5950 5850
+$Comp
+L Jumper_NO_Small JP159
+U 1 1 58B20612
+P 6050 6350
+F 0 "JP159" H 6050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 6290 50  0001 C CNN
+F 2 "lib:jump" H 6050 6350 50  0001 C CNN
+F 3 "" H 6050 6350 50  0000 C CNN
+	1    6050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6450 6150 6350
+Connection ~ 6150 6450
+$Comp
+L Jumper_NO_Small JP160
+U 1 1 58B2061A
+P 6050 6600
+F 0 "JP160" H 6050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 6540 50  0001 C CNN
+F 2 "lib:jump" H 6050 6600 50  0001 C CNN
+F 3 "" H 6050 6600 50  0000 C CNN
+	1    6050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 6700 6150 6600
+Connection ~ 6150 6700
+Connection ~ 5950 6350
+$Comp
+L CONN_01X02 P44
+U 1 1 58B20623
+P 6200 5100
+F 0 "P44" H 6200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 6300 5100 50  0000 C CNN
+F 2 "lib:2P" H 6200 5100 50  0001 C CNN
+F 3 "" H 6200 5100 50  0000 C CNN
+	1    6200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP154
+U 1 1 58B20629
+P 6050 4650
+F 0 "JP154" H 6050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 4590 50  0001 C CNN
+F 2 "lib:jump" H 6050 4650 50  0001 C CNN
+F 3 "" H 6050 4650 50  0000 C CNN
+	1    6050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP153
+U 1 1 58B2062F
+P 6050 4500
+F 0 "JP153" H 6050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6060 4440 50  0001 C CNN
+F 2 "lib:jump" H 6050 4500 50  0001 C CNN
+F 3 "" H 6050 4500 50  0000 C CNN
+	1    6050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4900 6150 4650
+Wire Wire Line
+	6250 4500 6150 4500
+Wire Wire Line
+	6250 4900 6250 4500
+Connection ~ 6150 4850
+Connection ~ 6250 4750
+Connection ~ 5950 4650
+Connection ~ 5950 4500
+$Comp
+L CONN_01X06 P46
+U 1 1 58B2063C
+P 6650 4000
+F 0 "P46" H 6650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 6750 4000 50  0000 C CNN
+F 2 "lib:6p" H 6650 4000 50  0001 C CNN
+F 3 "" H 6650 4000 50  0000 C CNN
+	1    6650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 6450 4150
+Connection ~ 6450 4050
+Connection ~ 6450 3950
+Connection ~ 6450 3850
+Connection ~ 6450 4250
+$Comp
+L Jumper_NO_Small JP171
+U 1 1 58B20647
+P 6550 5350
+F 0 "JP171" H 6550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 5290 50  0001 C CNN
+F 2 "lib:jump" H 6550 5350 50  0001 C CNN
+F 3 "" H 6550 5350 50  0000 C CNN
+	1    6550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 6600 6450 3750
+Wire Wire Line
+	6650 5450 6650 5350
+Connection ~ 6650 5450
+$Comp
+L Jumper_NO_Small JP172
+U 1 1 58B20650
+P 6550 5600
+F 0 "JP172" H 6550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 5540 50  0001 C CNN
+F 2 "lib:jump" H 6550 5600 50  0001 C CNN
+F 3 "" H 6550 5600 50  0000 C CNN
+	1    6550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5700 6650 5600
+Connection ~ 6650 5700
+$Comp
+L Jumper_NO_Small JP173
+U 1 1 58B20658
+P 6550 5850
+F 0 "JP173" H 6550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 5790 50  0001 C CNN
+F 2 "lib:jump" H 6550 5850 50  0001 C CNN
+F 3 "" H 6550 5850 50  0000 C CNN
+	1    6550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5950 6650 5850
+Connection ~ 6650 5950
+$Comp
+L Jumper_NO_Small JP174
+U 1 1 58B20660
+P 6550 6100
+F 0 "JP174" H 6550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 6040 50  0001 C CNN
+F 2 "lib:jump" H 6550 6100 50  0001 C CNN
+F 3 "" H 6550 6100 50  0000 C CNN
+	1    6550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6200 6650 6100
+Connection ~ 6650 6200
+Connection ~ 6450 5350
+Connection ~ 6450 5600
+Connection ~ 6450 5850
+$Comp
+L Jumper_NO_Small JP175
+U 1 1 58B2066B
+P 6550 6350
+F 0 "JP175" H 6550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 6290 50  0001 C CNN
+F 2 "lib:jump" H 6550 6350 50  0001 C CNN
+F 3 "" H 6550 6350 50  0000 C CNN
+	1    6550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6450 6650 6350
+Connection ~ 6650 6450
+$Comp
+L Jumper_NO_Small JP176
+U 1 1 58B20673
+P 6550 6600
+F 0 "JP176" H 6550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 6540 50  0001 C CNN
+F 2 "lib:jump" H 6550 6600 50  0001 C CNN
+F 3 "" H 6550 6600 50  0000 C CNN
+	1    6550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 6700 6650 6600
+Connection ~ 6650 6700
+Connection ~ 6450 6350
+$Comp
+L CONN_01X02 P48
+U 1 1 58B2067C
+P 6700 5100
+F 0 "P48" H 6700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 6800 5100 50  0000 C CNN
+F 2 "lib:2P" H 6700 5100 50  0001 C CNN
+F 3 "" H 6700 5100 50  0000 C CNN
+	1    6700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP170
+U 1 1 58B20682
+P 6550 4650
+F 0 "JP170" H 6550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 4590 50  0001 C CNN
+F 2 "lib:jump" H 6550 4650 50  0001 C CNN
+F 3 "" H 6550 4650 50  0000 C CNN
+	1    6550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP169
+U 1 1 58B20688
+P 6550 4500
+F 0 "JP169" H 6550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6560 4440 50  0001 C CNN
+F 2 "lib:jump" H 6550 4500 50  0001 C CNN
+F 3 "" H 6550 4500 50  0000 C CNN
+	1    6550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4900 6650 4650
+Wire Wire Line
+	6750 4500 6650 4500
+Wire Wire Line
+	6750 4900 6750 4500
+Connection ~ 6650 4850
+Connection ~ 6750 4750
+Connection ~ 6450 4650
+Connection ~ 6450 4500
+$Comp
+L CONN_01X06 P50
+U 1 1 58B20695
+P 7150 4000
+F 0 "P50" H 7150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 7250 4000 50  0000 C CNN
+F 2 "lib:6p" H 7150 4000 50  0001 C CNN
+F 3 "" H 7150 4000 50  0000 C CNN
+	1    7150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 6950 4150
+Connection ~ 6950 4050
+Connection ~ 6950 3950
+Connection ~ 6950 3850
+Connection ~ 6950 4250
+$Comp
+L Jumper_NO_Small JP187
+U 1 1 58B206A0
+P 7050 5350
+F 0 "JP187" H 7050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 5290 50  0001 C CNN
+F 2 "lib:jump" H 7050 5350 50  0001 C CNN
+F 3 "" H 7050 5350 50  0000 C CNN
+	1    7050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6600 6950 3750
+Wire Wire Line
+	7150 5450 7150 5350
+Connection ~ 7150 5450
+$Comp
+L Jumper_NO_Small JP188
+U 1 1 58B206A9
+P 7050 5600
+F 0 "JP188" H 7050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 5540 50  0001 C CNN
+F 2 "lib:jump" H 7050 5600 50  0001 C CNN
+F 3 "" H 7050 5600 50  0000 C CNN
+	1    7050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5700 7150 5600
+Connection ~ 7150 5700
+$Comp
+L Jumper_NO_Small JP189
+U 1 1 58B206B1
+P 7050 5850
+F 0 "JP189" H 7050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 5790 50  0001 C CNN
+F 2 "lib:jump" H 7050 5850 50  0001 C CNN
+F 3 "" H 7050 5850 50  0000 C CNN
+	1    7050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5950 7150 5850
+Connection ~ 7150 5950
+$Comp
+L Jumper_NO_Small JP190
+U 1 1 58B206B9
+P 7050 6100
+F 0 "JP190" H 7050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 6040 50  0001 C CNN
+F 2 "lib:jump" H 7050 6100 50  0001 C CNN
+F 3 "" H 7050 6100 50  0000 C CNN
+	1    7050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6200 7150 6100
+Connection ~ 7150 6200
+Connection ~ 6950 5350
+Connection ~ 6950 5600
+Connection ~ 6950 5850
+$Comp
+L Jumper_NO_Small JP191
+U 1 1 58B206C4
+P 7050 6350
+F 0 "JP191" H 7050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 6290 50  0001 C CNN
+F 2 "lib:jump" H 7050 6350 50  0001 C CNN
+F 3 "" H 7050 6350 50  0000 C CNN
+	1    7050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6450 7150 6350
+Connection ~ 7150 6450
+$Comp
+L Jumper_NO_Small JP192
+U 1 1 58B206CC
+P 7050 6600
+F 0 "JP192" H 7050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 6540 50  0001 C CNN
+F 2 "lib:jump" H 7050 6600 50  0001 C CNN
+F 3 "" H 7050 6600 50  0000 C CNN
+	1    7050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6700 7150 6600
+Connection ~ 7150 6700
+Connection ~ 6950 6350
+$Comp
+L CONN_01X02 P52
+U 1 1 58B206D5
+P 7200 5100
+F 0 "P52" H 7200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 7300 5100 50  0000 C CNN
+F 2 "lib:2P" H 7200 5100 50  0001 C CNN
+F 3 "" H 7200 5100 50  0000 C CNN
+	1    7200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP186
+U 1 1 58B206DB
+P 7050 4650
+F 0 "JP186" H 7050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 4590 50  0001 C CNN
+F 2 "lib:jump" H 7050 4650 50  0001 C CNN
+F 3 "" H 7050 4650 50  0000 C CNN
+	1    7050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP185
+U 1 1 58B206E1
+P 7050 4500
+F 0 "JP185" H 7050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7060 4440 50  0001 C CNN
+F 2 "lib:jump" H 7050 4500 50  0001 C CNN
+F 3 "" H 7050 4500 50  0000 C CNN
+	1    7050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4900 7150 4650
+Wire Wire Line
+	7250 4500 7150 4500
+Wire Wire Line
+	7250 4900 7250 4500
+Connection ~ 7150 4850
+Connection ~ 7250 4750
+Connection ~ 6950 4650
+Connection ~ 6950 4500
+$Comp
+L CONN_01X06 P54
+U 1 1 58B206EE
+P 7650 4000
+F 0 "P54" H 7650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 7750 4000 50  0000 C CNN
+F 2 "lib:6p" H 7650 4000 50  0001 C CNN
+F 3 "" H 7650 4000 50  0000 C CNN
+	1    7650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 7450 4150
+Connection ~ 7450 4050
+Connection ~ 7450 3950
+Connection ~ 7450 3850
+Connection ~ 7450 4250
+$Comp
+L Jumper_NO_Small JP203
+U 1 1 58B206F9
+P 7550 5350
+F 0 "JP203" H 7550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 5290 50  0001 C CNN
+F 2 "lib:jump" H 7550 5350 50  0001 C CNN
+F 3 "" H 7550 5350 50  0000 C CNN
+	1    7550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 6600 7450 3750
+Wire Wire Line
+	7650 5450 7650 5350
+Connection ~ 7650 5450
+$Comp
+L Jumper_NO_Small JP204
+U 1 1 58B20702
+P 7550 5600
+F 0 "JP204" H 7550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 5540 50  0001 C CNN
+F 2 "lib:jump" H 7550 5600 50  0001 C CNN
+F 3 "" H 7550 5600 50  0000 C CNN
+	1    7550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5700 7650 5600
+Connection ~ 7650 5700
+$Comp
+L Jumper_NO_Small JP205
+U 1 1 58B2070A
+P 7550 5850
+F 0 "JP205" H 7550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 5790 50  0001 C CNN
+F 2 "lib:jump" H 7550 5850 50  0001 C CNN
+F 3 "" H 7550 5850 50  0000 C CNN
+	1    7550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5950 7650 5850
+Connection ~ 7650 5950
+$Comp
+L Jumper_NO_Small JP206
+U 1 1 58B20712
+P 7550 6100
+F 0 "JP206" H 7550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 6040 50  0001 C CNN
+F 2 "lib:jump" H 7550 6100 50  0001 C CNN
+F 3 "" H 7550 6100 50  0000 C CNN
+	1    7550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6200 7650 6100
+Connection ~ 7650 6200
+Connection ~ 7450 5350
+Connection ~ 7450 5600
+Connection ~ 7450 5850
+$Comp
+L Jumper_NO_Small JP207
+U 1 1 58B2071D
+P 7550 6350
+F 0 "JP207" H 7550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 6290 50  0001 C CNN
+F 2 "lib:jump" H 7550 6350 50  0001 C CNN
+F 3 "" H 7550 6350 50  0000 C CNN
+	1    7550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6450 7650 6350
+Connection ~ 7650 6450
+$Comp
+L Jumper_NO_Small JP208
+U 1 1 58B20725
+P 7550 6600
+F 0 "JP208" H 7550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 6540 50  0001 C CNN
+F 2 "lib:jump" H 7550 6600 50  0001 C CNN
+F 3 "" H 7550 6600 50  0000 C CNN
+	1    7550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 6700 7650 6600
+Connection ~ 7650 6700
+Connection ~ 7450 6350
+$Comp
+L CONN_01X02 P56
+U 1 1 58B2072E
+P 7700 5100
+F 0 "P56" H 7700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 7800 5100 50  0000 C CNN
+F 2 "lib:2P" H 7700 5100 50  0001 C CNN
+F 3 "" H 7700 5100 50  0000 C CNN
+	1    7700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP202
+U 1 1 58B20734
+P 7550 4650
+F 0 "JP202" H 7550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 4590 50  0001 C CNN
+F 2 "lib:jump" H 7550 4650 50  0001 C CNN
+F 3 "" H 7550 4650 50  0000 C CNN
+	1    7550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP201
+U 1 1 58B2073A
+P 7550 4500
+F 0 "JP201" H 7550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 7560 4440 50  0001 C CNN
+F 2 "lib:jump" H 7550 4500 50  0001 C CNN
+F 3 "" H 7550 4500 50  0000 C CNN
+	1    7550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4900 7650 4650
+Wire Wire Line
+	7750 4500 7650 4500
+Wire Wire Line
+	7750 4900 7750 4500
+Connection ~ 7650 4850
+Connection ~ 7750 4750
+Connection ~ 7450 4650
+Connection ~ 7450 4500
+$Comp
+L CONN_01X06 P58
+U 1 1 58B20747
+P 8150 4000
+F 0 "P58" H 8150 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 8250 4000 50  0000 C CNN
+F 2 "lib:6p" H 8150 4000 50  0001 C CNN
+F 3 "" H 8150 4000 50  0000 C CNN
+	1    8150 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 7950 4150
+Connection ~ 7950 4050
+Connection ~ 7950 3950
+Connection ~ 7950 3850
+Connection ~ 7950 4250
+$Comp
+L Jumper_NO_Small JP219
+U 1 1 58B20752
+P 8050 5350
+F 0 "JP219" H 8050 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 5290 50  0001 C CNN
+F 2 "lib:jump" H 8050 5350 50  0001 C CNN
+F 3 "" H 8050 5350 50  0000 C CNN
+	1    8050 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 6600 7950 3750
+Wire Wire Line
+	8150 5450 8150 5350
+Connection ~ 8150 5450
+$Comp
+L Jumper_NO_Small JP220
+U 1 1 58B2075B
+P 8050 5600
+F 0 "JP220" H 8050 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 5540 50  0001 C CNN
+F 2 "lib:jump" H 8050 5600 50  0001 C CNN
+F 3 "" H 8050 5600 50  0000 C CNN
+	1    8050 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5700 8150 5600
+Connection ~ 8150 5700
+$Comp
+L Jumper_NO_Small JP221
+U 1 1 58B20763
+P 8050 5850
+F 0 "JP221" H 8050 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 5790 50  0001 C CNN
+F 2 "lib:jump" H 8050 5850 50  0001 C CNN
+F 3 "" H 8050 5850 50  0000 C CNN
+	1    8050 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5950 8150 5850
+Connection ~ 8150 5950
+$Comp
+L Jumper_NO_Small JP222
+U 1 1 58B2076B
+P 8050 6100
+F 0 "JP222" H 8050 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 6040 50  0001 C CNN
+F 2 "lib:jump" H 8050 6100 50  0001 C CNN
+F 3 "" H 8050 6100 50  0000 C CNN
+	1    8050 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 6200 8150 6100
+Connection ~ 8150 6200
+Connection ~ 7950 5350
+Connection ~ 7950 5600
+Connection ~ 7950 5850
+$Comp
+L Jumper_NO_Small JP223
+U 1 1 58B20776
+P 8050 6350
+F 0 "JP223" H 8050 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 6290 50  0001 C CNN
+F 2 "lib:jump" H 8050 6350 50  0001 C CNN
+F 3 "" H 8050 6350 50  0000 C CNN
+	1    8050 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 6450 8150 6350
+Connection ~ 8150 6450
+$Comp
+L Jumper_NO_Small JP224
+U 1 1 58B2077E
+P 8050 6600
+F 0 "JP224" H 8050 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 6540 50  0001 C CNN
+F 2 "lib:jump" H 8050 6600 50  0001 C CNN
+F 3 "" H 8050 6600 50  0000 C CNN
+	1    8050 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 6700 8150 6600
+Connection ~ 8150 6700
+Connection ~ 7950 6350
+$Comp
+L CONN_01X02 P60
+U 1 1 58B20787
+P 8200 5100
+F 0 "P60" H 8200 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 8300 5100 50  0000 C CNN
+F 2 "lib:2P" H 8200 5100 50  0001 C CNN
+F 3 "" H 8200 5100 50  0000 C CNN
+	1    8200 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP218
+U 1 1 58B2078D
+P 8050 4650
+F 0 "JP218" H 8050 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 4590 50  0001 C CNN
+F 2 "lib:jump" H 8050 4650 50  0001 C CNN
+F 3 "" H 8050 4650 50  0000 C CNN
+	1    8050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP217
+U 1 1 58B20793
+P 8050 4500
+F 0 "JP217" H 8050 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8060 4440 50  0001 C CNN
+F 2 "lib:jump" H 8050 4500 50  0001 C CNN
+F 3 "" H 8050 4500 50  0000 C CNN
+	1    8050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4900 8150 4650
+Wire Wire Line
+	8250 4500 8150 4500
+Wire Wire Line
+	8250 4900 8250 4500
+Connection ~ 8150 4850
+Connection ~ 8250 4750
+Connection ~ 7950 4650
+Connection ~ 7950 4500
+$Comp
+L CONN_01X06 P62
+U 1 1 58B207A0
+P 8650 4000
+F 0 "P62" H 8650 4350 50  0000 C CNN
+F 1 "CONN_01X06" V 8750 4000 50  0000 C CNN
+F 2 "lib:6p" H 8650 4000 50  0001 C CNN
+F 3 "" H 8650 4000 50  0000 C CNN
+	1    8650 4000
+	1    0    0    1   
+$EndComp
+Connection ~ 8450 4150
+Connection ~ 8450 4050
+Connection ~ 8450 3950
+Connection ~ 8450 3850
+Connection ~ 8450 4250
+$Comp
+L Jumper_NO_Small JP235
+U 1 1 58B207AB
+P 8550 5350
+F 0 "JP235" H 8550 5430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 5290 50  0001 C CNN
+F 2 "lib:jump" H 8550 5350 50  0001 C CNN
+F 3 "" H 8550 5350 50  0000 C CNN
+	1    8550 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 6600 8450 3750
+Wire Wire Line
+	8650 5450 8650 5350
+Connection ~ 8650 5450
+$Comp
+L Jumper_NO_Small JP236
+U 1 1 58B207B4
+P 8550 5600
+F 0 "JP236" H 8550 5680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 5540 50  0001 C CNN
+F 2 "lib:jump" H 8550 5600 50  0001 C CNN
+F 3 "" H 8550 5600 50  0000 C CNN
+	1    8550 5600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5700 8650 5600
+Connection ~ 8650 5700
+$Comp
+L Jumper_NO_Small JP237
+U 1 1 58B207BC
+P 8550 5850
+F 0 "JP237" H 8550 5930 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 5790 50  0001 C CNN
+F 2 "lib:jump" H 8550 5850 50  0001 C CNN
+F 3 "" H 8550 5850 50  0000 C CNN
+	1    8550 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5950 8650 5850
+Connection ~ 8650 5950
+$Comp
+L Jumper_NO_Small JP238
+U 1 1 58B207C4
+P 8550 6100
+F 0 "JP238" H 8550 6180 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 6040 50  0001 C CNN
+F 2 "lib:jump" H 8550 6100 50  0001 C CNN
+F 3 "" H 8550 6100 50  0000 C CNN
+	1    8550 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6200 8650 6100
+Connection ~ 8650 6200
+Connection ~ 8450 5350
+Connection ~ 8450 5600
+Connection ~ 8450 5850
+$Comp
+L Jumper_NO_Small JP239
+U 1 1 58B207CF
+P 8550 6350
+F 0 "JP239" H 8550 6430 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 6290 50  0001 C CNN
+F 2 "lib:jump" H 8550 6350 50  0001 C CNN
+F 3 "" H 8550 6350 50  0000 C CNN
+	1    8550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6450 8650 6350
+Connection ~ 8650 6450
+$Comp
+L Jumper_NO_Small JP240
+U 1 1 58B207D7
+P 8550 6600
+F 0 "JP240" H 8550 6680 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 6540 50  0001 C CNN
+F 2 "lib:jump" H 8550 6600 50  0001 C CNN
+F 3 "" H 8550 6600 50  0000 C CNN
+	1    8550 6600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6700 8650 6600
+Connection ~ 8650 6700
+Connection ~ 8450 6350
+$Comp
+L CONN_01X02 P64
+U 1 1 58B207E0
+P 8700 5100
+F 0 "P64" H 8700 5250 50  0000 C CNN
+F 1 "CONN_01X02" V 8800 5100 50  0000 C CNN
+F 2 "lib:2P" H 8700 5100 50  0001 C CNN
+F 3 "" H 8700 5100 50  0000 C CNN
+	1    8700 5100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP234
+U 1 1 58B207E6
+P 8550 4650
+F 0 "JP234" H 8550 4730 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 4590 50  0001 C CNN
+F 2 "lib:jump" H 8550 4650 50  0001 C CNN
+F 3 "" H 8550 4650 50  0000 C CNN
+	1    8550 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP233
+U 1 1 58B207EC
+P 8550 4500
+F 0 "JP233" H 8550 4580 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 8560 4440 50  0001 C CNN
+F 2 "lib:jump" H 8550 4500 50  0001 C CNN
+F 3 "" H 8550 4500 50  0000 C CNN
+	1    8550 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4900 8650 4650
+Wire Wire Line
+	8750 4500 8650 4500
+Wire Wire Line
+	8750 4900 8750 4500
+Connection ~ 8650 4850
+Connection ~ 8750 4750
+Connection ~ 8450 4650
+Connection ~ 8450 4500
+Connection ~ 1450 6350
+Connection ~ 1450 1000
+Connection ~ 1950 1250
+Connection ~ 2450 1250
+Connection ~ 2950 1250
+Connection ~ 3450 1250
+Connection ~ 3950 1250
+Connection ~ 4450 1250
+Connection ~ 4950 1250
+Connection ~ 5450 1250
+Connection ~ 5950 1250
+Connection ~ 6450 1250
+Connection ~ 6950 1250
+Connection ~ 7450 1250
+Connection ~ 7950 1250
+Connection ~ 8450 1250
+Connection ~ 1950 6100
+Connection ~ 2450 6100
+Connection ~ 2950 6100
+Connection ~ 3450 6100
+Connection ~ 3950 6100
+Connection ~ 4450 6100
+Connection ~ 4950 6100
+Connection ~ 5450 6100
+Connection ~ 5950 6100
+Connection ~ 6450 6100
+Connection ~ 6950 6100
+Connection ~ 7450 6100
+Connection ~ 7950 6100
+Connection ~ 8450 6100
+$EndSCHEMATC
